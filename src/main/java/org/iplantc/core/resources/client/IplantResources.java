@@ -3,7 +3,6 @@
  */
 package org.iplantc.core.resources.client;
 
-import org.iplantc.core.resources.client.images.Icons;
 import org.iplantc.core.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.core.resources.client.messages.IplantErrorStrings;
 
@@ -19,6 +18,6 @@ public class IplantResources {
 	
 	public static IplantErrorStrings ERROR = GWT.create(IplantErrorStrings.class);
 	
-	public static Icons 	ICON = GWT.create(Icons.class);
+	public static Icons ICON = GWT.create(Icons.class);
 	
 }
