@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package org.iplantc.core.resources.client;
 
@@ -10,7 +10,7 @@ import com.google.gwt.resources.client.ImageResource;
 
 /**
  * @author sriram
- * 
+ *
  */
 public interface IplantResources extends ClientBundle, AppResources,
 		DiskResourceResources {
@@ -19,7 +19,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("iplant_tiny.png")
@@ -27,7 +27,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("list-items.gif")
@@ -35,7 +35,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("delete.gif")
@@ -43,7 +43,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("save.gif")
@@ -51,7 +51,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("refreshicon.png")
@@ -59,7 +59,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("whitelogo.png")
@@ -67,7 +67,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("Stop.png")
@@ -75,7 +75,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("up.gif")
@@ -83,15 +83,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
-	 * @return image.
-	 */
-	@Source("analysis.gif")
-	ImageResource analysis();
-
-	/**
-	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("analysis_gear.gif")
@@ -99,7 +91,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("run.png")
@@ -107,7 +99,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("edit.gif")
@@ -115,7 +107,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("file_copy.gif")
@@ -123,7 +115,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("comments.png")
@@ -131,7 +123,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("arrow_undo.png")
@@ -139,14 +131,14 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("delete_icon.png")
 	ImageResource deleteIcon();
 
 	/**
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("arrow.gif")
@@ -163,7 +155,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("arrow_undo.png")
@@ -171,15 +163,24 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("book.png")
 	ImageResource subCategory();
 
+
+    /**
+     * Image resource.
+     *
+     * @return image.
+     */
+    @Source("book_edit.png")
+    ImageResource cat_edit();
+
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("magnifier.png")
@@ -187,7 +188,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("new.gif")
@@ -195,7 +196,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("delete.gif")
@@ -203,7 +204,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource for window title-bars and the taskbar.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("whitelogo_sm.png")
@@ -211,7 +212,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("group_key.png")
@@ -219,7 +220,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("close.png")
@@ -227,7 +228,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("group.png")
@@ -250,18 +251,18 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	@Source("publish.png")
 	ImageResource publish();
-	
+
 	@Source("arrow_up.png")
 	ImageResource arrowUp();
-	
+
 	@Source("arrow_down.png")
 	ImageResource arrowDown();
 
 	/** Begin App resources **/
-	
+
 	@Source("AppFavoriteCell.css")
 	AppFavoriteCellStyle appFavoriteCss();
-	
+
 	@Override
 	@Source("star-gold.gif")
 	ImageResource goldStar();
@@ -276,7 +277,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("fav.png")
@@ -284,7 +285,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("fav_add.png")
@@ -292,7 +293,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Source("fav_remove.png")
@@ -300,7 +301,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource for a View Deployed Components icon.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -309,7 +310,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource for app launch
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -317,7 +318,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 	ImageResource applicationLaunch();
 
 	/**
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -325,7 +326,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 	ImageResource deleteRating();
 
 	/**
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -334,7 +335,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -343,7 +344,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -352,7 +353,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -361,28 +362,28 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
 	@Source("not_fav.png")
 	ImageResource disabledFavIcon();
-	
+
 	@Override
 	@Source("exclamation.png")
 	ImageResource appUnavailableIcon();
-	
-	
+
+
 	/** end app resources **/
 
 	/** begin Disk resource **/
 
 	@Source("DiskResourceNameCell.css")
 	DiskResourceNameCellStyle diskResourceNameCss();
-	
+
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -391,7 +392,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -400,7 +401,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -409,7 +410,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -418,7 +419,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -427,7 +428,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -436,7 +437,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -445,7 +446,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -454,7 +455,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -463,7 +464,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -472,7 +473,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -481,7 +482,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -490,7 +491,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
@@ -499,21 +500,11 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	/**
 	 * Image resource.
-	 * 
+	 *
 	 * @return image.
 	 */
 	@Override
 	@Source("control_arrow_down.png")
 	ImageResource dataActionMenuIcon();
-
-	/**
-	 * Image resource.
-	 * 
-	 * @return image.
-	 */
-	@Override
-	@Source("mydata_tiny.gif")
-	ImageResource dataTiny();
-
 
 }

@@ -51,7 +51,7 @@
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
-		
+
 		<dependency>
            <groupId>com.google.guava</groupId>
            <artifactId>guava-gwt</artifactId>
@@ -74,11 +74,14 @@
 				<version>${gwt.version}</version>
 				<executions>
 					<execution>
-						<goals>
-							<goal>compile</goal>
-						</goals>
+							<goals>
+								<goal>compile</goal>
+								<!-- <goal>i18n</goal> -->
+							</goals>
 						<configuration>
 							<module>${gwt.module}</module>
+				<!-- These config options are only relevant if the i18n goal is executed. -->
+                            <i18nMessagesBundle>org.iplantc.core.resources.client.messages.IplantErrorStrings</i18nMessagesBundle>
 						</configuration>
 					</execution>
 				</executions>
@@ -135,7 +138,7 @@
 			</resource>
 		</resources>
 	</build>
-   
+
 	<repositories>
         <repository>
             <id>codehaus-maven-repo</id>
