@@ -1,16 +1,32 @@
 package org.iplantc.core.resources.client.messages;
 
-
 /**
  * Interface to represent the messages contained in resource bundle:
  * 	/Users/sriram/iplant/lib-workspace/ui-resources-module/src/main/resources/org/iplantc/core/resources/client/messages/IplantErrorStrings.properties'.
  */
 public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages {
+  
+  /**
+   * Translated "Could not add Category \"{0}\".".
+   * 
+   * @return translated "Could not add Category \"{0}\"."
+   */
+  @DefaultMessage("Could not add Category \"{0}\".")
+  @Key("addAppGroupError")
+  String addAppGroupError(String arg0);
 
+  /**
+   * Translated "Can not add a Category under a Category that only contains Applications.".
+   * 
+   * @return translated "Can not add a Category under a Category that only contains Applications."
+   */
+  @DefaultMessage("Can not add a Category under a Category that only contains Applications.")
+  @Key("addCategoryPermissionError")
+  String addCategoryPermissionError();
 
-	/**
+  /**
    * Translated "Unable to add collaborator(s). Please try again later.".
-   *
+   * 
    * @return translated "Unable to add collaborator(s). Please try again later."
    */
   @DefaultMessage("Unable to add collaborator(s). Please try again later.")
@@ -18,8 +34,17 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   String addCollabErrorMsg();
 
   /**
+   * Translated "Could not add a Reference Genome.".
+   * 
+   * @return translated "Could not add a Reference Genome."
+   */
+  @DefaultMessage("Could not add a Reference Genome.")
+  @Key("addRefGenomeError")
+  String addRefGenomeError();
+
+  /**
    * Translated "Analysis {0} failed to launch.".
-   *
+   * 
    * @return translated "Analysis {0} failed to launch."
    */
   @DefaultMessage("Analysis {0} failed to launch.")
@@ -28,7 +53,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Failed to load analysis groups.".
-   *
+   * 
    * @return translated "Failed to load analysis groups."
    */
   @DefaultMessage("Failed to load analysis groups.")
@@ -37,7 +62,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "No application exists for the specified ID.".
-   *
+   * 
    * @return translated "No application exists for the specified ID."
    */
   @DefaultMessage("No application exists for the specified ID.")
@@ -46,7 +71,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Error deleting the selected app.".
-   *
+   * 
    * @return translated "Error deleting the selected app."
    */
   @DefaultMessage("Error deleting the selected app.")
@@ -55,7 +80,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Cannot create documentation page for app {0}".
-   *
+   * 
    * @return translated "Cannot create documentation page for app {0}"
    */
   @DefaultMessage("Cannot create documentation page for app {0}")
@@ -64,7 +89,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to complete this request. Please try again later.".
-   *
+   * 
    * @return translated "Unable to complete this request. Please try again later."
    */
   @DefaultMessage("Unable to complete this request. Please try again later.")
@@ -73,7 +98,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Folder creation has failed.".
-   *
+   * 
    * @return translated "Folder creation has failed."
    */
   @DefaultMessage("Folder creation has failed.")
@@ -82,7 +107,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The server reported a missing or corrupt request parameter. Please try again.".
-   *
+   * 
    * @return translated "The server reported a missing or corrupt request parameter. Please try again."
    */
   @DefaultMessage("The server reported a missing or corrupt request parameter. Please try again.")
@@ -91,7 +116,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The server did not understand the request. Please try again.".
-   *
+   * 
    * @return translated "The server did not understand the request. Please try again."
    */
   @DefaultMessage("The server did not understand the request. Please try again.")
@@ -100,7 +125,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The server reported a missing request parameter. Please try again.".
-   *
+   * 
    * @return translated "The server reported a missing request parameter. Please try again."
    */
   @DefaultMessage("The server reported a missing request parameter. Please try again.")
@@ -109,7 +134,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The request was not made for a valid user.".
-   *
+   * 
    * @return translated "The request was not made for a valid user."
    */
   @DefaultMessage("The request was not made for a valid user.")
@@ -118,7 +143,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "You are not authorized to make that request.".
-   *
+   * 
    * @return translated "You are not authorized to make that request."
    */
   @DefaultMessage("You are not authorized to make that request.")
@@ -127,7 +152,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve inputs and outputs for selected apps.".
-   *
+   * 
    * @return translated "Unable to retrieve inputs and outputs for selected apps."
    */
   @DefaultMessage("Unable to retrieve inputs and outputs for selected apps.")
@@ -136,7 +161,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to get the list of installed tools. Please try again later.".
-   *
+   * 
    * @return translated "Unable to get the list of installed tools. Please try again later."
    */
   @DefaultMessage("Unable to get the list of installed tools. Please try again later.")
@@ -145,7 +170,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to restore default preferences. Please try again.".
-   *
+   * 
    * @return translated "Unable to restore default preferences. Please try again."
    */
   @DefaultMessage("Unable to restore default preferences. Please try again.")
@@ -154,7 +179,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Error deleting analysis.".
-   *
+   * 
    * @return translated "Error deleting analysis."
    */
   @DefaultMessage("Error deleting analysis.")
@@ -162,8 +187,35 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   String deleteAnalysisError();
 
   /**
+   * Translated "Could not delete Category \"{0}\".".
+   * 
+   * @return translated "Could not delete Category \"{0}\"."
+   */
+  @DefaultMessage("Could not delete Category \"{0}\".")
+  @Key("deleteAppGroupError")
+  String deleteAppGroupError(String arg0);
+
+  /**
+   * Translated "Could not delete Application \"{0}\".".
+   * 
+   * @return translated "Could not delete Application \"{0}\"."
+   */
+  @DefaultMessage("Could not delete Application \"{0}\".")
+  @Key("deleteApplicationError")
+  String deleteApplicationError(String arg0);
+
+  /**
+   * Translated "Can not delete a Category that has sub-categories or contains Applications.".
+   * 
+   * @return translated "Can not delete a Category that has sub-categories or contains Applications."
+   */
+  @DefaultMessage("Can not delete a Category that has sub-categories or contains Applications.")
+  @Key("deleteCategoryPermissionError")
+  String deleteCategoryPermissionError();
+
+  /**
    * Translated "Delete file has failed.".
-   *
+   * 
    * @return translated "Delete file has failed."
    */
   @DefaultMessage("Delete file has failed.")
@@ -172,7 +224,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Delete folder has failed.".
-   *
+   * 
    * @return translated "Delete folder has failed."
    */
   @DefaultMessage("Delete folder has failed.")
@@ -181,7 +233,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve list of integrated tools.".
-   *
+   * 
    * @return translated "Unable to retrieve list of integrated tools."
    */
   @DefaultMessage("Unable to retrieve list of integrated tools.")
@@ -190,7 +242,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following disk resources do not exist:<br />{0}".
-   *
+   * 
    * @return translated "The following disk resources do not exist:<br />{0}"
    */
   @DefaultMessage("The following disk resources do not exist:<br />{0}")
@@ -199,7 +251,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following disk resources already exist:<br />{0}".
-   *
+   * 
    * @return translated "The following disk resources already exist:<br />{0}"
    */
   @DefaultMessage("The following disk resources already exist:<br />{0}")
@@ -208,7 +260,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The delete request was incomplete. Please try again.".
-   *
+   * 
    * @return translated "The delete request was incomplete. Please try again."
    */
   @DefaultMessage("The delete request was incomplete. Please try again.")
@@ -217,7 +269,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The move request was incomplete. Please try again.".
-   *
+   * 
    * @return translated "The move request was incomplete. Please try again."
    */
   @DefaultMessage("The move request was incomplete. Please try again.")
@@ -226,7 +278,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The rename request was incomplete. Please try again.".
-   *
+   * 
    * @return translated "The rename request was incomplete. Please try again."
    */
   @DefaultMessage("The rename request was incomplete. Please try again.")
@@ -235,7 +287,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following are files:<br />{0}".
-   *
+   * 
    * @return translated "The following are files:<br />{0}"
    */
   @DefaultMessage("The following are files:<br />{0}")
@@ -244,7 +296,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following are folders:<br />{0}".
-   *
+   * 
    * @return translated "The following are folders:<br />{0}"
    */
   @DefaultMessage("The following are folders:<br />{0}")
@@ -253,7 +305,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following are not files:<br />{0}".
-   *
+   * 
    * @return translated "The following are not files:<br />{0}"
    */
   @DefaultMessage("The following are not files:<br />{0}")
@@ -262,7 +314,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following are not folders:<br />{0}".
-   *
+   * 
    * @return translated "The following are not folders:<br />{0}"
    */
   @DefaultMessage("The following are not folders:<br />{0}")
@@ -271,7 +323,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following disk resources are not readable:<br />{0}".
-   *
+   * 
    * @return translated "The following disk resources are not readable:<br />{0}"
    */
   @DefaultMessage("The following disk resources are not readable:<br />{0}")
@@ -280,7 +332,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following disk resources are not writable:<br />{0}".
-   *
+   * 
    * @return translated "The following disk resources are not writable:<br />{0}"
    */
   @DefaultMessage("The following disk resources are not writable:<br />{0}")
@@ -289,7 +341,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following disk resources are readable:<br />{0}".
-   *
+   * 
    * @return translated "The following disk resources are readable:<br />{0}"
    */
   @DefaultMessage("The following disk resources are readable:<br />{0}")
@@ -298,7 +350,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following disk resources are writable:<br />{0}".
-   *
+   * 
    * @return translated "The following disk resources are writable:<br />{0}"
    */
   @DefaultMessage("The following disk resources are writable:<br />{0}")
@@ -307,7 +359,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to check for duplicates.".
-   *
+   * 
    * @return translated "Unable to check for duplicates."
    */
   @DefaultMessage("Unable to check for duplicates.")
@@ -316,7 +368,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Error".
-   *
+   * 
    * @return translated "Error"
    */
   @DefaultMessage("Error")
@@ -325,7 +377,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Error: {0}\nMessage: {1}".
-   *
+   * 
    * @return translated "Error: {0}\nMessage: {1}"
    */
   @DefaultMessage("Error: {0}\nMessage: {1}")
@@ -334,7 +386,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve App display information.".
-   *
+   * 
    * @return translated "Unable to retrieve App display information."
    */
   @DefaultMessage("Unable to retrieve App display information.")
@@ -343,7 +395,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Failed to update favorites".
-   *
+   * 
    * @return translated "Failed to update favorites"
    */
   @DefaultMessage("Failed to update favorites")
@@ -352,7 +404,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following file(s) do not exist:<br />{0}".
-   *
+   * 
    * @return translated "The following file(s) do not exist:<br />{0}"
    */
   @DefaultMessage("The following file(s) do not exist:<br />{0}")
@@ -361,7 +413,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "This file already exists.".
-   *
+   * 
    * @return translated "This file already exists."
    */
   @DefaultMessage("This file already exists.")
@@ -370,7 +422,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following file(s) already exist:<br />{0}".
-   *
+   * 
    * @return translated "The following file(s) already exist:<br />{0}"
    */
   @DefaultMessage("The following file(s) already exist:<br />{0}")
@@ -379,7 +431,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following file(s) are not readable:<br />{0}".
-   *
+   * 
    * @return translated "The following file(s) are not readable:<br />{0}"
    */
   @DefaultMessage("The following file(s) are not readable:<br />{0}")
@@ -388,7 +440,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following file(s) are not writable:<br />{0}".
-   *
+   * 
    * @return translated "The following file(s) are not writable:<br />{0}"
    */
   @DefaultMessage("The following file(s) are not writable:<br />{0}")
@@ -397,7 +449,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following file(s) are readable:<br />{0}".
-   *
+   * 
    * @return translated "The following file(s) are readable:<br />{0}"
    */
   @DefaultMessage("The following file(s) are readable:<br />{0}")
@@ -406,7 +458,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Upload of {0} failed.".
-   *
+   * 
    * @return translated "Upload of {0} failed."
    */
   @DefaultMessage("Upload of {0} failed.")
@@ -415,7 +467,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following file(s) are writable:<br />{0}".
-   *
+   * 
    * @return translated "The following file(s) are writable:<br />{0}"
    */
   @DefaultMessage("The following file(s) are writable:<br />{0}")
@@ -424,7 +476,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following folder(s) do not exist:<br />{0}".
-   *
+   * 
    * @return translated "The following folder(s) do not exist:<br />{0}"
    */
   @DefaultMessage("The following folder(s) do not exist:<br />{0}")
@@ -433,7 +485,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following folder(s) already exist:<br />{0}".
-   *
+   * 
    * @return translated "The following folder(s) already exist:<br />{0}"
    */
   @DefaultMessage("The following folder(s) already exist:<br />{0}")
@@ -442,7 +494,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Folder \"{0}\" not found.".
-   *
+   * 
    * @return translated "Folder \"{0}\" not found."
    */
   @DefaultMessage("Folder \"{0}\" not found.")
@@ -451,7 +503,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following folder(s) are not readable:<br />{0}".
-   *
+   * 
    * @return translated "The following folder(s) are not readable:<br />{0}"
    */
   @DefaultMessage("The following folder(s) are not readable:<br />{0}")
@@ -460,7 +512,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following folder(s) are not writable:<br />{0}".
-   *
+   * 
    * @return translated "The following folder(s) are not writable:<br />{0}"
    */
   @DefaultMessage("The following folder(s) are not writable:<br />{0}")
@@ -469,7 +521,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following folder(s) are readable:<br />{0}".
-   *
+   * 
    * @return translated "The following folder(s) are readable:<br />{0}"
    */
   @DefaultMessage("The following folder(s) are readable:<br />{0}")
@@ -478,7 +530,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "The following folder(s) are writable:<br />{0}".
-   *
+   * 
    * @return translated "The following folder(s) are writable:<br />{0}"
    */
   @DefaultMessage("The following folder(s) are writable:<br />{0}")
@@ -487,7 +539,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Import of {0} failed.".
-   *
+   * 
    * @return translated "Import of {0} failed."
    */
   @DefaultMessage("Import of {0} failed.")
@@ -496,7 +548,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "App or workflow name cannot start with the characters {0} and cannot contain the characters {1}".
-   *
+   * 
    * @return translated "App or workflow name cannot start with the characters {0} and cannot contain the characters {1}"
    */
   @DefaultMessage("App or workflow name cannot start with the characters {0} and cannot contain the characters {1}")
@@ -505,7 +557,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Invalid file name entered.".
-   *
+   * 
    * @return translated "Invalid file name entered."
    */
   @DefaultMessage("Invalid file name entered.")
@@ -514,7 +566,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to request login session extension; please log out and log back in at your earliest convenience.".
-   *
+   * 
    * @return translated "Unable to request login session extension; please log out and log back in at your earliest convenience."
    */
   @DefaultMessage("Unable to request login session extension; please log out and log back in at your earliest convenience.")
@@ -523,7 +575,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Could not load session.".
-   *
+   * 
    * @return translated "Could not load session."
    */
   @DefaultMessage("Could not load session.")
@@ -532,7 +584,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Could not load the previous session, however, you may continue working safely.".
-   *
+   * 
    * @return translated "Could not load the previous session, however, you may continue working safely."
    */
   @DefaultMessage("Could not load the previous session, however, you may continue working safely.")
@@ -541,7 +593,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Each step must have at least one output to input mapping (except Step 1).".
-   *
+   * 
    * @return translated "Each step must have at least one output to input mapping (except Step 1)."
    */
   @DefaultMessage("Each step must have at least one output to input mapping (except Step 1).")
@@ -550,7 +602,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Error updating metadata.".
-   *
+   * 
    * @return translated "Error updating metadata."
    */
   @DefaultMessage("Error updating metadata.")
@@ -558,8 +610,26 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   String metadataUpdateFailed();
 
   /**
+   * Translated "Could not move Application \"{0}\".".
+   * 
+   * @return translated "Could not move Application \"{0}\"."
+   */
+  @DefaultMessage("Could not move Application \"{0}\".")
+  @Key("moveApplicationError")
+  String moveApplicationError(String arg0);
+
+  /**
+   * Translated "Could not move Category \"{0}\".".
+   * 
+   * @return translated "Could not move Category \"{0}\"."
+   */
+  @DefaultMessage("Could not move Category \"{0}\".")
+  @Key("moveCategoryError")
+  String moveCategoryError(String arg0);
+
+  /**
    * Translated "Move Failed.".
-   *
+   * 
    * @return translated "Move Failed."
    */
   @DefaultMessage("Move Failed.")
@@ -568,7 +638,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "An error occurred while processing your request. Please contact iPlant support at support@iplantcollaborative.org.".
-   *
+   * 
    * @return translated "An error occurred while processing your request. Please contact iPlant support at support@iplantcollaborative.org."
    */
   @DefaultMessage("An error occurred while processing your request. Please contact iPlant support at support@iplantcollaborative.org.")
@@ -577,7 +647,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "No folder selected.".
-   *
+   * 
    * @return translated "No folder selected."
    */
   @DefaultMessage("No folder selected.")
@@ -586,7 +656,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to delete notifications.".
-   *
+   * 
    * @return translated "Unable to delete notifications."
    */
   @DefaultMessage("Unable to delete notifications.")
@@ -595,7 +665,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "You do not have the permission to perform this operation on the selected item(s).".
-   *
+   * 
    * @return translated "You do not have the permission to perform this operation on the selected item(s)."
    */
   @DefaultMessage("You do not have the permission to perform this operation on the selected item(s).")
@@ -604,7 +674,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Permission Error".
-   *
+   * 
    * @return translated "Permission Error"
    */
   @DefaultMessage("Permission Error")
@@ -613,7 +683,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to remove collaborator(s). Please try again later.".
-   *
+   * 
    * @return translated "Unable to remove collaborator(s). Please try again later."
    */
   @DefaultMessage("Unable to remove collaborator(s). Please try again later.")
@@ -621,8 +691,17 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   String removeCollabErrorMsg();
 
   /**
+   * Translated "Could not rename Category \"{0}\".".
+   * 
+   * @return translated "Could not rename Category \"{0}\"."
+   */
+  @DefaultMessage("Could not rename Category \"{0}\".")
+  @Key("renameCategoryError")
+  String renameCategoryError(String arg0);
+
+  /**
    * Translated "File rename has failed.".
-   *
+   * 
    * @return translated "File rename has failed."
    */
   @DefaultMessage("File rename has failed.")
@@ -631,7 +710,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Folder rename has failed.".
-   *
+   * 
    * @return translated "Folder rename has failed."
    */
   @DefaultMessage("Folder rename has failed.")
@@ -640,7 +719,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Cannot move an ancestor folder into one of its descendants.".
-   *
+   * 
    * @return translated "Cannot move an ancestor folder into one of its descendants."
    */
   @DefaultMessage("Cannot move an ancestor folder into one of its descendants.")
@@ -649,7 +728,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Failed to retrieve folder contents.".
-   *
+   * 
    * @return translated "Failed to retrieve folder contents."
    */
   @DefaultMessage("Failed to retrieve folder contents.")
@@ -658,7 +737,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve details.".
-   *
+   * 
    * @return translated "Unable to retrieve details."
    */
   @DefaultMessage("Unable to retrieve details.")
@@ -667,7 +746,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve user info.".
-   *
+   * 
    * @return translated "Unable to retrieve user info."
    */
   @DefaultMessage("Unable to retrieve user info.")
@@ -676,7 +755,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to save this parameters as a file. Please try again.".
-   *
+   * 
    * @return translated "Unable to save this parameters as a file. Please try again."
    */
   @DefaultMessage("Unable to save this parameters as a file. Please try again.")
@@ -685,7 +764,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Could not save session.".
-   *
+   * 
    * @return translated "Could not save session."
    */
   @DefaultMessage("Could not save session.")
@@ -694,7 +773,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to save search history.".
-   *
+   * 
    * @return translated "Unable to save search history."
    */
   @DefaultMessage("Unable to save search history.")
@@ -703,7 +782,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Code: {0}".
-   *
+   * 
    * @return translated "Code: {0}"
    */
   @DefaultMessage("Code: {0}")
@@ -712,7 +791,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Reason: {0}".
-   *
+   * 
    * @return translated "Reason: {0}"
    */
   @DefaultMessage("Reason: {0}")
@@ -721,7 +800,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Status: {0}".
-   *
+   * 
    * @return translated "Status: {0}"
    */
   @DefaultMessage("Status: {0}")
@@ -730,7 +809,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to complete this request. Please try again later.".
-   *
+   * 
    * @return translated "Unable to complete this request. Please try again later."
    */
   @DefaultMessage("Unable to complete this request. Please try again later.")
@@ -739,7 +818,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to stop execution of analysis \"{0}\".".
-   *
+   * 
    * @return translated "Unable to stop execution of analysis \"{0}\"."
    */
   @DefaultMessage("Unable to stop execution of analysis \"{0}\".")
@@ -748,7 +827,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve the configuration settings from the server.".
-   *
+   * 
    * @return translated "Unable to retrieve the configuration settings from the server."
    */
   @DefaultMessage("Unable to retrieve the configuration settings from the server.")
@@ -757,7 +836,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Tree retrieval failed.".
-   *
+   * 
    * @return translated "Tree retrieval failed."
    */
   @DefaultMessage("Tree retrieval failed.")
@@ -766,7 +845,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to build workspace.".
-   *
+   * 
    * @return translated "Unable to build workspace."
    */
   @DefaultMessage("Unable to build workspace.")
@@ -775,7 +854,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve contents for file {0}.".
-   *
+   * 
    * @return translated "Unable to retrieve contents for file {0}."
    */
   @DefaultMessage("Unable to retrieve contents for file {0}.")
@@ -784,7 +863,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve manifest for file {0}.".
-   *
+   * 
    * @return translated "Unable to retrieve manifest for file {0}."
    */
   @DefaultMessage("Unable to retrieve manifest for file {0}.")
@@ -793,7 +872,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to retrieve URLs for the tree file {0}.".
-   *
+   * 
    * @return translated "Unable to retrieve URLs for the tree file {0}."
    */
   @DefaultMessage("Unable to retrieve URLs for the tree file {0}.")
@@ -802,7 +881,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "Unable to open the selected App".
-   *
+   * 
    * @return translated "Unable to open the selected App"
    */
   @DefaultMessage("Unable to open the selected App")
@@ -810,8 +889,26 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   String unableToRetrieveWorkflowGuide();
 
   /**
+   * Translated "Could not update Application.".
+   * 
+   * @return translated "Could not update Application."
+   */
+  @DefaultMessage("Could not update Application.")
+  @Key("updateApplicationError")
+  String updateApplicationError();
+
+  /**
+   * Translated "Could not update Reference Genome.".
+   * 
+   * @return translated "Could not update Reference Genome."
+   */
+  @DefaultMessage("Could not update Reference Genome.")
+  @Key("updateRefGenomeError")
+  String updateRefGenomeError();
+
+  /**
    * Translated "Unable to publish your workflow.".
-   *
+   * 
    * @return translated "Unable to publish your workflow."
    */
   @DefaultMessage("Unable to publish your workflow.")
@@ -820,7 +917,7 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
 
   /**
    * Translated "A workflow must have a name and description, 2 or more apps, and at least one input of each app must come from an output of a previous app.".
-   *
+   * 
    * @return translated "A workflow must have a name and description, 2 or more apps, and at least one input of each app must come from an output of a previous app."
    */
   @DefaultMessage("A workflow must have a name and description, 2 or more apps, and at least one input of each app must come from an output of a previous app.")
