@@ -147,7 +147,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 	@Source("headerlogo_85h.png")
 	ImageResource headerLogo();
 
-	@Source("iplant_about.gif")
+    @Source("iplant_about.png")
 	ImageResource iplantAbout();
 
 	@Source("wand.png")
