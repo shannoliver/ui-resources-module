@@ -3,6 +3,8 @@
  */
 package org.iplantc.core.resources.client;
 
+import org.iplantc.core.uiapps.integration.client.view.AppIntegrationPaletteImages;
+
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.DataResource;
@@ -13,7 +15,7 @@ import com.google.gwt.resources.client.ImageResource;
  *
  */
 public interface IplantResources extends ClientBundle, AppResources,
-		DiskResourceResources {
+ DiskResourceResources, AppIntegrationPaletteImages {
 
 	public static IplantResources RESOURCES = GWT.create(IplantResources.class);
 
@@ -280,7 +282,8 @@ public interface IplantResources extends ClientBundle, AppResources,
 	 *
 	 * @return image.
 	 */
-	@Source("fav.png")
+	@Override
+    @Source("fav.png")
 	ImageResource favIcon();
 
 	/**
@@ -288,7 +291,8 @@ public interface IplantResources extends ClientBundle, AppResources,
 	 *
 	 * @return image.
 	 */
-	@Source("fav_add.png")
+	@Override
+    @Source("fav_add.png")
 	ImageResource favIconAdd();
 
 	/**
@@ -296,7 +300,8 @@ public interface IplantResources extends ClientBundle, AppResources,
 	 *
 	 * @return image.
 	 */
-	@Source("fav_remove.png")
+	@Override
+    @Source("fav_remove.png")
 	ImageResource favIconDelete();
 
 	/**
@@ -507,4 +512,48 @@ public interface IplantResources extends ClientBundle, AppResources,
 	@Source("control_arrow_down.png")
 	ImageResource dataActionMenuIcon();
 
+    @Override
+    @Source("input_checkbox.png")
+    ImageResource inputCheckBox();
+
+    @Override
+    @Source("input_env_var.png")
+    ImageResource inputEnvVar();
+
+    @Override
+    @Source("input_file_multi.png")
+    ImageResource inputFileMulti();
+
+    @Override
+    @Source("input_file_single.png")
+    ImageResource inputFileSingle();
+
+    @Override
+    @Source("input_group.png")
+    ImageResource inputGroup();
+
+    @Override
+    @Source("input_number_integer.png")
+    ImageResource inputNumberInteger();
+
+    @Override
+    @Source("input_select_grouped.png")
+    ImageResource inputSelectGrouped();
+
+    @Override
+    @Source("input_select_multi.png")
+    ImageResource inputSelectMulti();
+
+    @Override
+    @Source("input_select_single.png")
+    ImageResource inputSelectSingle();
+
+    @Override
+    @Source("input_text_multi.png")
+    ImageResource inputTextMulti();
+
+    @Override
+    @Source("input_text_single.png")
+    ImageResource inputTextSingle();
 }
+
