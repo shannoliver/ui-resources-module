@@ -1,4 +1,4 @@
-package org.iplantc.core.uiapps.integration.client.view;
+package org.iplantc.core.resources.client.uiapps.integration;
 
 import com.google.gwt.resources.client.ImageResource;
 

@@ -3,7 +3,7 @@
  */
 package org.iplantc.core.resources.client;
 
-import org.iplantc.core.uiapps.integration.client.view.AppIntegrationPaletteImages;
+import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationPaletteImages;
 
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.resources.client.ClientBundle;
