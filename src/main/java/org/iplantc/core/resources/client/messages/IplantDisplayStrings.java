@@ -2,13 +2,15 @@ package org.iplantc.core.resources.client.messages;
 
 import com.google.gwt.i18n.client.LocalizableResource.Key;
 import com.google.gwt.i18n.client.Messages.DefaultMessage;
+import org.iplantc.core.resources.client.uiapps.widgets.ArgumentValidatorMessages;
+
 import com.google.gwt.safehtml.shared.SafeHtml;
 
 /**
  * Interface to represent the messages contained in resource bundle:
  * 	/Users/sriram/iplant/lib-workspace/ui-resources-module/src/main/resources/org/iplantc/core/resources/client/messages/IplantDisplayStrings.properties'.
  */
-public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Messages {
+public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Messages, ArgumentValidatorMessages {
 
   /**
    * Translated "About".
