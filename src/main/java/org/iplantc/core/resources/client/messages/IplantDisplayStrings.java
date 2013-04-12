@@ -1,5 +1,7 @@
 package org.iplantc.core.resources.client.messages;
 
+import com.google.gwt.i18n.client.LocalizableResource.Key;
+import com.google.gwt.i18n.client.Messages.DefaultMessage;
 import com.google.gwt.safehtml.shared.SafeHtml;
 
 /**
@@ -340,6 +342,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Argument order")
   @Key("argumentOrder")
   String argumentOrder();
+
+    /**
+     * Translated "Architecture".
+     * 
+     * @return translated "Architecture"
+     */
+    @DefaultMessage("Architecture")
+    @Key("architecture")
+    String architecture();
 
   /**
    * Translated "Attach sample input files (zip multiple files)".
@@ -2554,6 +2565,109 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Published on")
   @Key("publishedOn")
   String publishedOn();
+
+    /**
+     * Translated "Please attach any helpful links or references for this app:".
+     * 
+     * @return translated "Please attach any helpful links or references for this app:"
+     */
+    @DefaultMessage("Please attach any helpful links or references for this app:")
+    @Key("publicAttach")
+    String publicAttach();
+
+    /**
+     * Translated "Click Add to attach an item.".
+     * 
+     * @return translated "Click Add to attach an item."
+     */
+    @DefaultMessage("Click Add to attach an item.")
+    @Key("publicAttachBox")
+    String publicAttachBox();
+
+    /**
+     * Translated "For example, you may want to include a link to a paper which referenced your app.".
+     * 
+     * @return translated
+     *         "For example, you may want to include a link to a paper which referenced your app."
+     */
+    @DefaultMessage("For example, you may want to include a link to a paper which referenced your app.")
+    @Key("publicAttachTip")
+    String publicAttachTip();
+
+    /**
+     * Translated "Suggest categories for your app:".
+     * 
+     * @return translated "Suggest categories for your app:"
+     */
+    @DefaultMessage("Suggest categories for your app:")
+    @Key("publicCategories")
+    String publicCategories();
+
+    /**
+     * Translated "Click Browse to explore categories.".
+     * 
+     * @return translated "Click Browse to explore categories."
+     */
+    @DefaultMessage("Click Browse to explore categories.")
+    @Key("publicCategoriesBox")
+    String publicCategoriesBox();
+
+    /**
+     * Translated
+     * "Select the possible categories under which your app may be displayed in the apps list within the Apps window."
+     * .
+     * 
+     * @return translated
+     *         "Select the possible categories under which your app may be displayed in the apps list within the Apps window."
+     */
+    @DefaultMessage("Select the possible categories under which your app may be displayed in the apps list within the Apps window.")
+    @Key("publicCategoriesTip")
+    String publicCategoriesTip();
+
+    /**
+     * Translated "Briefly describe your app:".
+     * 
+     * @return translated "Briefly describe your app:"
+     */
+    @DefaultMessage("Briefly describe your app:")
+    @Key("publicDescription")
+    String publicDescription();
+
+    /**
+     * Translated "Click app description below to edit.".
+     * 
+     * @return translated "Click app description below to edit."
+     */
+    @DefaultMessage("Click app description below to edit.")
+    @Key("publicDescriptionNote")
+    String publicDescriptionNote();
+
+    /**
+     * Translated "What is the name of your app?".
+     * 
+     * @return translated "What is the name of your app?"
+     */
+    @DefaultMessage("What is the name of your app?")
+    @Key("publicName")
+    String publicName();
+
+    /**
+     * Translated "Click app name below to edit.".
+     * 
+     * @return translated "Click app name below to edit."
+     */
+    @DefaultMessage("Click app name below to edit.")
+    @Key("publicNameNote")
+    String publicNameNote();
+
+    /**
+     * Translated "Please complete required fields to submit.".
+     * 
+     * @return translated "Please complete required fields to submit."
+     */
+    @DefaultMessage("Please complete required fields to submit.")
+    @Key("publicSubmitTip")
+    String publicSubmitTip();
 
   /**
    * Translated "Quick Tips".
