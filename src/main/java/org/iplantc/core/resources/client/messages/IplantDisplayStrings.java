@@ -2296,6 +2296,24 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @Key("otherTab")
   String otherTab();
 
+    /**
+     * Translated "Other Information".
+     * 
+     * @return translated "Other Information"
+     */
+    @DefaultMessage("Enter any other Information")
+    @Key("otherInfo")
+    String otherInfo();
+
+    /**
+     * Translated "Other data".
+     * 
+     * @return translated "Other data"
+     */
+    @DefaultMessage("Upload any supplemental data")
+    @Key("otherData")
+    String otherData();
+
   /**
    * Translated "Output(s)".
    *
