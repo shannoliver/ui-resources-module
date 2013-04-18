@@ -3104,6 +3104,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   String search();
 
   /**
+   * Translated "Search results for \"{0}\"".
+   * 
+   * @return translated "Search results for \"{0}\""
+   */
+  @DefaultMessage("Search results for \"{0}\"")
+  @Key("searchAppResultsHeader")
+  String searchAppResultsHeader(String searchText);
+
+  /**
    * Translated "Search Apps by Name or Description".
    *
    * @return translated "Search Apps by Name or Description"
