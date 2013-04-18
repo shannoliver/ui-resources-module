@@ -1985,6 +1985,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String maximize();
 
     /**
+     * The system message arrival announcement message.
+     * 
+     * @return the message
+     */
+    @DefaultMessage("You have an important message.")
+    @Key("messageArrivalAnnouncement")
+    String messageArrivalAnnouncement();
+
+    /**
      * Translated "Messages".
      * 
      * @return translated "Messages"
@@ -2427,6 +2436,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Open Data window")
     @Key("openDatawindow")
     String openDatawindow();
+
+    /**
+     * The open system messages window link text
+     * 
+     * @return the text
+     */
+    @DefaultMessage("Read now.")
+    @Key("openMessage")
+    String openMessage();
 
     /**
      * Translated "Open Notifications window".
@@ -3735,6 +3753,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Switch View")
     @Key("swapView")
     String swapView();
+
+    /**
+     * The system messages menu item text
+     * 
+     * @return the text
+     */
+    @DefaultMessage("System Messages")
+    @Key("systemMessagesLabel")
+    String systemMessagesLabel();
 
     /**
      * Translated "Disable this app temporarily".
