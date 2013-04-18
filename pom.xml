@@ -76,12 +76,12 @@
 					<execution>
 							<goals>
 								<goal>compile</goal>
-								<!-- <goal>i18n</goal>  -->
+								<!-- <goal>i18n</goal> -->
 							</goals>
 						<configuration>
 							<module>${gwt.module}</module>
 				<!-- These config options are only relevant if the i18n goal is executed. -->
-                            <i18nMessagesBundle>org.iplantc.core.resources.client.messages.IplantErrorStrings</i18nMessagesBundle>
+                            <i18nMessagesBundle>org.iplantc.core.resources.client.messages.test</i18nMessagesBundle>
 						</configuration>
 					</execution>
 				</executions>

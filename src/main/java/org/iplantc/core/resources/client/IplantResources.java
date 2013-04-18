@@ -15,7 +15,8 @@ import com.google.gwt.resources.client.ImageResource;
  *
  */
 public interface IplantResources extends ClientBundle, AppResources,
- DiskResourceResources, AppIntegrationPaletteImages {
+ DiskResourceResources,
+        AppIntegrationPaletteImages, DEHeaderResources {
 
 	public static IplantResources RESOURCES = GWT.create(IplantResources.class);
 
@@ -146,8 +147,8 @@ public interface IplantResources extends ClientBundle, AppResources,
 	@Source("arrow.gif")
 	ImageResource menuAnchor();
 
-	@Source("headerlogo_85h.png")
-	ImageResource headerLogo();
+    // @Source("headerlogo_85h.png")
+    // ImageResource headerLogo();
 
     @Source("iplant_about.png")
 	ImageResource iplantAbout();
@@ -555,5 +556,20 @@ public interface IplantResources extends ClientBundle, AppResources,
     @Override
     @Source("input_text_single.png")
     ImageResource inputTextSingle();
+
+    @Override
+    @Source("header_bg.png")
+    ImageResource headerBg();
+
+    @Override
+    @Source("header_bg_bg.png")
+    ImageResource headerBgBg();
+
+    @Override
+    @Source("mini_logo.png")
+    ImageResource headerLogo();
+
+    @Source("DEHeader.css")
+    DEHeaderStyle getHeaderStyle();
 }
 
