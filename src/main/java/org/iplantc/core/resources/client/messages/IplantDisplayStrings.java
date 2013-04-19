@@ -2336,6 +2336,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("nosharing")
     String nosharing();
 
+	/**
+	 * The system messages window message indicating that the user has no system messages to view.
+	 *
+	 * @return the message
+	 */
+	@DefaultMessage("You have no new messages.")
+	@Key("noSystemMessages")
+	String noSystemMessages();
+
     /**
      * Translated "must be a valid iPlant Wiki Documentation URL".
      * 
