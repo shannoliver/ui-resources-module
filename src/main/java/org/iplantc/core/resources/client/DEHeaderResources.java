@@ -6,7 +6,5 @@ public interface DEHeaderResources {
 
     ImageResource headerBg();
 
-    ImageResource headerBgBg();
-
     ImageResource headerLogo();
 }

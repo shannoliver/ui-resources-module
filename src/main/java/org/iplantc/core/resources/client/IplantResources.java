@@ -147,9 +147,6 @@ public interface IplantResources extends ClientBundle, AppResources,
 	@Source("arrow.gif")
 	ImageResource menuAnchor();
 
-    // @Source("headerlogo_85h.png")
-    // ImageResource headerLogo();
-
     @Source("iplant_about.png")
 	ImageResource iplantAbout();
 
@@ -560,10 +557,6 @@ public interface IplantResources extends ClientBundle, AppResources,
     @Override
     @Source("header_bg.png")
     ImageResource headerBg();
-
-    @Override
-    @Source("header_bg_bg.png")
-    ImageResource headerBgBg();
 
     @Override
     @Source("mini_logo.png")
