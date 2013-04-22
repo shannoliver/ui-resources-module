@@ -355,6 +355,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @Key("duplicateCheckFailed")
   String duplicateCheckFailed();
 
+    /**
+     * Error msg to show when empty trash fails
+     * 
+     * @return
+     */
+    String emptyTrashError();
+
   /**
    * Translated "Error".
    * 
