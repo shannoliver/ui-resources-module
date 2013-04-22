@@ -726,6 +726,15 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @Key("resourcesContainAncestors")
   String resourcesContainAncestors();
 
+    /**
+     * Translated "Unable to restore selected files and folders.".
+     * 
+     * @return translated "Unable to restore selected files and folders."
+     */
+    @DefaultMessage("Unable to restore selected files and folders.")
+    @Key("restoreDefaultMsg")
+    String restoreDefaultMsg();
+
   /**
    * Translated "Failed to retrieve folder contents.".
    * 

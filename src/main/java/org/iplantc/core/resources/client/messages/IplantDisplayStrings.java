@@ -1,7 +1,5 @@
 package org.iplantc.core.resources.client.messages;
 
-import com.google.gwt.i18n.client.LocalizableResource.Key;
-import com.google.gwt.i18n.client.Messages.DefaultMessage;
 import org.iplantc.core.resources.client.uiapps.widgets.ArgumentValidatorMessages;
 
 import com.google.gwt.safehtml.shared.SafeHtml;
@@ -922,24 +920,6 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   String deleteAll();
 
   /**
-   * Translated "Deleting will permanently remove files from your data list and cause dependent analyses to fail.  Do you wish to continue?".
-   *
-   * @return translated "Deleting will permanently remove files from your data list and cause dependent analyses to fail.  Do you wish to continue?"
-   */
-  @DefaultMessage("Deleting will permanently remove files from your data list and cause dependent analyses to fail.  Do you wish to continue?")
-  @Key("deleteFilesMsg")
-  String deleteFilesMsg();
-
-  /**
-   * Translated "Warning".
-   *
-   * @return translated "Warning"
-   */
-  @DefaultMessage("Warning")
-  @Key("deleteFilesTitle")
-  String deleteFilesTitle();
-
-  /**
    * Translated "All are deleted files and folders are available under trash.".
    *
    * @return translated "All are deleted files and folders are available under trash."
@@ -1271,15 +1251,6 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Filter by name")
   @Key("filterDataList")
   String filterDataList();
-
-  /**
-   * Translated "<br/>You have selected a folder for deletion.<br/><br/>This will remove all associated files. This action<br/>cannot be undone.<br/><br/>Do you want to continue?".
-   *
-   * @return translated "<br/>You have selected a folder for deletion.<br/><br/>This will remove all associated files. This action<br/>cannot be undone.<br/><br/>Do you want to continue?"
-   */
-  @DefaultMessage("<br/>You have selected a folder for deletion.<br/><br/>This will remove all associated files. This action<br/>cannot be undone.<br/><br/>Do you want to continue?")
-  @Key("folderDeleteWarning")
-  String folderDeleteWarning();
 
   /**
    * Translated "Folder Name".
