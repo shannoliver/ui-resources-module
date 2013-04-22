@@ -213,23 +213,12 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @Key("deleteCategoryPermissionError")
   String deleteCategoryPermissionError();
 
-  /**
-   * Translated "Delete file has failed.".
-   * 
-   * @return translated "Delete file has failed."
-   */
-  @DefaultMessage("Delete file has failed.")
-  @Key("deleteFileFailed")
-  String deleteFileFailed();
-
-  /**
-   * Translated "Delete folder has failed.".
-   * 
-   * @return translated "Delete folder has failed."
-   */
-  @DefaultMessage("Delete folder has failed.")
-  @Key("deleteFolderFailed")
-  String deleteFolderFailed();
+    /**
+     * Error message displayed when deletion fails.
+     * 
+     * @return localized error string.
+     */
+    String deleteFailed();
 
   /**
    * Translated "Unable to retrieve list of integrated tools.".
@@ -699,23 +688,12 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @Key("renameCategoryError")
   String renameCategoryError(String arg0);
 
-  /**
-   * Translated "File rename has failed.".
-   * 
-   * @return translated "File rename has failed."
-   */
-  @DefaultMessage("File rename has failed.")
-  @Key("renameFileFailed")
-  String renameFileFailed();
-
-  /**
-   * Translated "Folder rename has failed.".
-   * 
-   * @return translated "Folder rename has failed."
-   */
-  @DefaultMessage("Folder rename has failed.")
-  @Key("renameFolderFailed")
-  String renameFolderFailed();
+    /**
+     * Error message displayed when rename fails.
+     * 
+     * @return localized error string.
+     */
+    String renameFailed();
 
   /**
    * Translated "Cannot move an ancestor folder into one of its descendants.".
@@ -779,6 +757,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @DefaultMessage("Could not save session.")
   @Key("saveSessionFailed")
   String saveSessionFailed();
+
+    /**
+     * Error msg to show when search fails
+     * 
+     * @return
+     */
+    String searchError();
 
   /**
    * Translated "Unable to save search history.".

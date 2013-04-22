@@ -2170,6 +2170,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @Key("noParameters")
   String noParameters();
 
+    /**
+     * msg to show when there are no results to display
+     * 
+     * @return
+     */
+    String noSearchResults(String searchTerm);
+
   /**
    * Translated "Begin sharing".
    *
@@ -3127,6 +3134,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("This field requires 3 or more characters!")
   @Key("searchMinChars")
   String searchMinChars();
+
+    /**
+     * search threshold msg
+     * 
+     * @return
+     */
+    String searchThresholdMsg(int limit);
 
   /**
    * Translated "Searching...".
