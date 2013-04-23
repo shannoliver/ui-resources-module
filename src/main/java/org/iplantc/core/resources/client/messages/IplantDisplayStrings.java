@@ -631,6 +631,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @Key("collaborators")
   String collaborators();
 
+    /**
+     * Text displayed to collapse all nodes in a tree.
+     * 
+     * @return
+     */
+    String collapseAll();
+
   /**
    * Translated "Enter any additional comments".
    *
@@ -847,6 +854,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @Key("dataDragDropStatusText")
   String dataDragDropStatusText(int i);
 
+    /**
+     * Text displayed at top of Manage Data Link window.
+     * 
+     * @return
+     */
+    String dataLinkWarning();
+
   /**
    * Translated "Date".
    *
@@ -918,6 +932,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Delete All")
   @Key("deleteAll")
   String deleteAll();
+
+    /**
+     * Tool tip text displayed when hovering over the delete button in the Manage Data Links window.
+     * 
+     * @return
+     */
+    String deleteDataLinkToolTip();
 
   /**
    * Translated "All are deleted files and folders are available under trash.".
@@ -1143,6 +1164,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Click to execute this app.")
   @Key("executeThisAnalysis")
   String executeThisAnalysis();
+
+    /**
+     * Text displayed to expand all nodes in a tree.
+     * 
+     * @return
+     */
+    String expandAll();
 
   /**
    * Translated "Explain".
@@ -1800,6 +1828,13 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Manage Data")
   @Key("manageData")
   String manageData();
+
+    /**
+     * Menu text for button to Manage Data Link tickets.
+     * 
+     * @return
+     */
+    String manageDataLinks();
 
   /**
    * Translated "Manage Sharing".

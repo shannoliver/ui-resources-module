@@ -96,6 +96,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @Key("confluenceError")
   String confluenceError();
 
+    /**
+     * Error msg shown when an attempt to create some data links goes awry!!
+     * 
+     * @return
+     */
+    String createDataLinksError();
+
   /**
    * Translated "Folder creation has failed.".
    * 
@@ -212,6 +219,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @DefaultMessage("Can not delete a Category that has sub-categories or contains Applications.")
   @Key("deleteCategoryPermissionError")
   String deleteCategoryPermissionError();
+
+    /**
+     * Error msg shown when an attempt to delete some data links failed.
+     * 
+     * @return
+     */
+    String deleteDataLinksError();
 
     /**
      * Error message displayed when deletion fails.
@@ -568,6 +582,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @DefaultMessage("Unable to request login session extension; please log out and log back in at your earliest convenience.")
   @Key("keepaliveRequestFailed")
   String keepaliveRequestFailed();
+
+    /**
+     * Error msg shown when an attempt to list datalinks for a set of <code>DiskResource</code>s fails.
+     * 
+     * @return
+     */
+    String listDataLinksError();
 
   /**
    * Translated "Could not load session.".
