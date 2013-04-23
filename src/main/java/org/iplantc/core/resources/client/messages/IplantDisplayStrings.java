@@ -2383,6 +2383,12 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @Key("paramValue")
   String paramValue();
 
+    /**
+     * 
+     * @return
+     */
+    String partialRestore();
+
   /**
    * Translated "Path".
    *
