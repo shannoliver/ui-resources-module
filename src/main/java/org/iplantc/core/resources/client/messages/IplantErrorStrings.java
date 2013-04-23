@@ -1,10 +1,12 @@
 package org.iplantc.core.resources.client.messages;
 
+import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationErrorMessages;
+
 /**
  * Interface to represent the messages contained in resource bundle:
  * 	/Users/sriram/iplant/lib-workspace/ui-resources-module/src/main/resources/org/iplantc/core/resources/client/messages/IplantErrorStrings.properties'.
  */
-public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages {
+public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages, AppIntegrationErrorMessages {
   
   /**
    * Translated "Could not add Category \"{0}\".".

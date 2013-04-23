@@ -1,5 +1,6 @@
 package org.iplantc.core.resources.client.messages;
 
+import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationMessages;
 import org.iplantc.core.resources.client.uiapps.widgets.ArgumentValidatorMessages;
 
 import com.google.gwt.safehtml.shared.SafeHtml;
@@ -8,7 +9,7 @@ import com.google.gwt.safehtml.shared.SafeHtml;
  * Interface to represent the messages contained in resource bundle:
  * 	/Users/sriram/iplant/lib-workspace/ui-resources-module/src/main/resources/org/iplantc/core/resources/client/messages/IplantDisplayStrings.properties'.
  */
-public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Messages, ArgumentValidatorMessages {
+public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Messages, ArgumentValidatorMessages, AppIntegrationMessages {
 
   /**
    * Translated "About".
