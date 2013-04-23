@@ -590,6 +590,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
      */
     String listDataLinksError();
 
+    /**
+     * Error msg shown when an attempt to load App references goes awry!!
+     * 
+     * @return
+     */
+    String loadReferencesError();
+
   /**
    * Translated "Could not load session.".
    * 
