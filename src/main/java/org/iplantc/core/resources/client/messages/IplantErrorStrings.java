@@ -175,6 +175,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages 
   @Key("dcLoadError")
   String dcLoadError();
 
+    /**
+     * Validation error message displayed when selected default analysis output folder path is invalid.
+     * 
+     * @return localized error string.
+     */
+    String defaultOutputFolderValidationError();
+
   /**
    * Translated "Unable to restore default preferences. Please try again.".
    * 
