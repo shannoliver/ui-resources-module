@@ -2888,6 +2888,12 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @Key("remove")
   String remove();
 
+    /**
+     * 
+     * @return
+     */
+    String removeAccess();
+
   /**
    * Translated "Remove from favorites".
    *
