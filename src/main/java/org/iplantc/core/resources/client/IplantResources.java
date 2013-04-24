@@ -76,11 +76,19 @@ public interface IplantResources extends ClientBundle, AppResources,
 	@Source("Stop.png")
 	ImageResource stop();
 
-	/**
-	 * Image resource.
-	 *
-	 * @return image.
-	 */
+	    /**
+     * Image resource.
+     * 
+     * @return image.
+     */
+    @Source("tick.png")
+    ImageResource tick();
+
+    /**
+     * Image resource.
+     * 
+     * @return image.
+     */
 	@Source("up.gif")
 	ImageResource goUp();
 
