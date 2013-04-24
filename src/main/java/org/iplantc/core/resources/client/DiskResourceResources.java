@@ -115,6 +115,6 @@ public interface DiskResourceResources {
      *
      * @return image.
      */
-	ImageResource appUnavailableIcon();
+	ImageResource exclamation();
 
 }

@@ -718,6 +718,16 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Copy")
   @Key("copy")
   String copy();
+  
+  
+    /**
+     * Translated "Copy / Paste".
+     * 
+     * @return translated "Copy / Paste"
+     */
+    @DefaultMessage("Hit ctrl-c or cmd-c to copy.")
+    @Key("copyPasteInstructions")
+    String copyPasteInstructions();
 
   /**
    * Translated "Create".

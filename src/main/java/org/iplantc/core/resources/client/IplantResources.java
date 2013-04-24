@@ -374,7 +374,7 @@ public interface IplantResources extends ClientBundle, AppResources,
 
 	@Override
 	@Source("exclamation.png")
-	ImageResource appUnavailableIcon();
+	ImageResource exclamation();
 
 
 	/** end app resources **/
