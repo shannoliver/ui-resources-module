@@ -1,14 +1,3 @@
-a {
-	text-decoration: none;
-	color: #00aabe;
-	border-bottom: 1px dotted #41BDCC;
-}
-a:hover {
-	border-bottom: 1px dotted #0098aa;
-	color: #0098aa;
-	text-decoration: none;
-}
-
 /* Header Styles */
 @sprite .header {
 	gwt-image: "headerBg" ;	/* Edit these locations based on where you save images */
