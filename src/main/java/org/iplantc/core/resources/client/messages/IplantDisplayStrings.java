@@ -3068,6 +3068,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   String save();
 
   /**
+   * Translated "You have unsaved changes. Save now?"
+   * 
+   * @return translated "You have unsaved changes. Save now?"
+   */
+  @DefaultMessage("You have unsaved changes. Save now?")
+  @Key("unsavedChanges")
+  String unsavedChanges();
+
+  /**
    * Translated "Save As".
    *
    * @return translated "Save As"
