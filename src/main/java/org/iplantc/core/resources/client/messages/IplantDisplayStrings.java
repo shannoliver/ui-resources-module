@@ -784,6 +784,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @Key("createClipperFilename")
   String createClipperFilename();
 
+    /**
+     * Translated "Create in {0}.".
+     * 
+     * @return translated "Create in {0}."
+     */
+    @DefaultMessage("Create in {0}.")
+    @Key("createIn")
+    String createIn(String path);
+
   /**
    * Translated "New App".
    *
@@ -3856,6 +3865,24 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Version")
   @Key("version")
   String version();
+
+    /**
+     * Translated "via Discovery Environment".
+     * 
+     * @return translated "via Discovery Environment"
+     */
+    @DefaultMessage("via Discovery Environment")
+    @Key("viaDiscoveryEnvironment")
+    String viaDiscoveryEnvironment();
+
+    /**
+     * Translated "via Public Link".
+     * 
+     * @return translated "via Public Link"
+     */
+    @DefaultMessage("via Public Link")
+    @Key("viaPublicLink")
+    String viaPublicLink();
 
   /**
    * Translated "View".
