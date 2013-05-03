@@ -639,14 +639,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      */
     String collapseAll();
 
-  /**
-   * Translated "Enter any additional comments".
-   *
-   * @return translated "Enter any additional comments"
-   */
-  @DefaultMessage("Enter any additional comments")
-  @Key("comments")
-  String comments();
+    /**
+     * Translated "Comments".
+     * 
+     * @return translated "Comments"
+     */
+    @DefaultMessage("Comments")
+    @Key("comments")
+    String comments();
 
   /**
    * Translated "Confirm".
@@ -1157,6 +1157,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("End Date")
   @Key("endDate")
   String endDate();
+
+    /**
+     * Translated "Enter any additional comments".
+     * 
+     * @return translated "Enter any additional comments"
+     */
+    @DefaultMessage("Enter any additional comments")
+    @Key("enterAnyAdditionalComments")
+    String enterAnyAdditionalComments();
 
   /**
    * Translated "Error".
@@ -3631,6 +3640,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
   @DefaultMessage("Name of tool/script")
   @Key("toolNameLabel")
   String toolNameLabel();
+
+    /**
+     * Translated "Tool Request Status".
+     * 
+     * @return translated "Tool Request Status"
+     */
+    @DefaultMessage("Tool Request Status")
+    @Key("toolRequestStatus")
+    String toolRequestStatus();
 
   /**
    * Translated "Tool Information".
