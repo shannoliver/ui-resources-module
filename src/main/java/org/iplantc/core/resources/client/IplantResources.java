@@ -600,4 +600,6 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Source("DataLinkPanelCell.css")
     DataLinkPanelCellStyle getDataLinkCss();
 
+    @Source("user_comment.png")
+    ImageResource feedback();
 }
