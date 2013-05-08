@@ -3,12 +3,12 @@
  */
 package org.iplantc.core.resources.client;
 
-import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationPaletteImages;
-
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.DataResource;
 import com.google.gwt.resources.client.ImageResource;
+
+import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationPaletteImages;
 
 /**
  * @author sriram
@@ -19,6 +19,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
 
     public static IplantResources RESOURCES = GWT.create(IplantResources.class);
 
+    
     /**
      * Image resource.
      * 
@@ -225,18 +226,26 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     ImageResource share();
 
     /**
-     * Image resource.
-     * 
-     * @return image.
-     */
+	 * the close window icon
+	 * 
+	 * @return image.
+	 */
     @Source("close.png")
     ImageResource close();
 
     /**
-     * Image resource.
-     * 
-     * @return image.
-     */
+	 * the close window icon to show when the mouse is over the closer
+	 * 
+	 * @return image.
+	 */
+	@Source("close_hover.png")
+	ImageResource closeHover();
+
+	/**
+	 * Image resource.
+	 * 
+	 * @return image.
+	 */
     @Source("group.png")
     ImageResource viewCurrentCollabs();
 
@@ -602,4 +611,13 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
 
     @Source("user_comment.png")
     ImageResource feedback();
+    
+    /**
+     * Accesses the style for the Announcer widget
+     * 
+     * @return the CSS resource associated with the style
+     */
+	@Source("Announcer.css")
+	AnnouncerStyle getAnnouncerStyle();
+
 }
