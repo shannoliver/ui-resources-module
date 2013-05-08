@@ -585,9 +585,11 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Source("bin.png")
     ImageResource trash();
 
+    @Override
     @Source("tree_collapse.png")
     ImageResource treeCollapse();
 
+    @Override
     @Source("tree_expand.png")
     ImageResource treeExpand();
 
@@ -597,12 +599,15 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Source("warning_mini.png")
     ImageResource warningMini();
 
+    @Override
     @Source("link_add.png")
     ImageResource linkAdd();
 
+    @Override
     @Source("link_delete.png")
     ImageResource linkDelete();
 
+    @Override
     @Source("paste_plain.png")
     ImageResource paste();
 
@@ -619,5 +624,9 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
      */
 	@Source("Announcer.css")
 	AnnouncerStyle getAnnouncerStyle();
+
+
+    @Source("ToolRequestStatusHelp.css")
+    ToolRequestStatusHelpStyle getToolRequestStatusHelpCss();
 
 }

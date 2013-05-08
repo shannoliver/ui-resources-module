@@ -248,6 +248,15 @@ public interface IplantContextualHelpStrings extends com.google.gwt.i18n.client.
     String sharePermissionsHelp();
 
     /**
+     * Translated "Your Tool Request may be in one of the following Statuses." .
+     * 
+     * @return translated "Your Tool Request may be in one of the following Statuses."
+     */
+    @DefaultMessage("Your Tool Request may be in one of the following Statuses.")
+    @Key("toolRequestStatusHelp")
+    String toolRequestStatusHelp();
+
+    /**
      * Translated
      * "Your requested tool is now available in the Discovery Environment. Please see the Status Comments for more information."
      * .
