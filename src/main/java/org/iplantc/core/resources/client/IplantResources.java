@@ -3,12 +3,13 @@
  */
 package org.iplantc.core.resources.client;
 
+import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationPaletteImages;
+import org.iplantc.core.resources.client.uiapps.widgets.ArgumentListEditorCss;
+
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.DataResource;
 import com.google.gwt.resources.client.ImageResource;
-
-import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationPaletteImages;
 
 /**
  * @author sriram
@@ -625,8 +626,9 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
 	@Source("Announcer.css")
 	AnnouncerStyle getAnnouncerStyle();
 
-
     @Source("ToolRequestStatusHelp.css")
     ToolRequestStatusHelpStyle getToolRequestStatusHelpCss();
 
+    @Source("uiapps/widgets/ArgumentListEditorCss.css")
+    ArgumentListEditorCss argumentListEditorCss();
 }
