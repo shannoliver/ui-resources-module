@@ -29,9 +29,9 @@
 .panel {
 	animation: materialize 2s;
  	background: rgb(237, 237, 237);
- 	border: 1px solid rgb(0, 0, 0);
- 	border-radius: 3px;
- 	box-shadow: 1mm 1mm 2px rgba(0, 0, 0, 0.3);
+ 	border: 1px outset rgb(237, 237, 237);
+ 	border-radius: 1mm;
+ 	box-shadow: 1mm 1mm 0.7mm rgba(0, 0, 0, 0.3);
 	padding: 1mm;
 	top: 5px !important;
 }
@@ -40,7 +40,7 @@
  * to be announced
  */
 .panelMultiple {
-	box-shadow: 1mm 1mm 0px rgb(237, 237, 237);
+	box-shadow: 1mm 1mm 0mm rgb(237, 237, 237);
 }
 
 /* This is the styling applied to the content */
