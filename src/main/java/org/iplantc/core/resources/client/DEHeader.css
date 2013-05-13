@@ -4,6 +4,7 @@
 	background-color: #009bad;
 	height: 39px;
 	width: 100%;
+	box-shadow: -1px 0px 4px 0px #777;
 }
 
 @sprite .logo {
