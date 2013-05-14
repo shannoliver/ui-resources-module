@@ -40,7 +40,7 @@
  * to be announced
  */
 .panelMultiple {
-	box-shadow: 1mm 1mm 0mm rgb(237, 237, 237);
+	box-shadow: 1mm 1mm 0mm rgb(237, 237, 237) !important;
 }
 
 /* This is the styling applied to the content */
