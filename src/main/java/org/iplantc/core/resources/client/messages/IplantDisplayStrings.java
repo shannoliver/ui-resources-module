@@ -1,6 +1,7 @@
 package org.iplantc.core.resources.client.messages;
 
 import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationMessages;
+import org.iplantc.core.resources.client.uiapps.widgets.AppsWidgetsDisplayMessages;
 import org.iplantc.core.resources.client.uiapps.widgets.ArgumentValidatorMessages;
 
 import com.google.gwt.safehtml.shared.SafeHtml;
@@ -12,7 +13,7 @@ import com.google.gwt.safehtml.shared.SafeHtml;
  * /messages/IplantDisplayStrings.properties'.
  */
 public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Messages,
-        ArgumentValidatorMessages, AppIntegrationMessages {
+ ArgumentValidatorMessages, AppIntegrationMessages, AppsWidgetsDisplayMessages {
 
     /**
      * Translated "About".
@@ -931,6 +932,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * 
      * @return translated "analysis1"
      */
+    @Override
     @DefaultMessage("analysis1")
     @Key("defaultAnalysisName")
     String defaultAnalysisName();
