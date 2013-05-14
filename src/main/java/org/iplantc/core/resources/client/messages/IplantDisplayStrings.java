@@ -2747,15 +2747,6 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String publicSubmissionForm();
 
     /**
-     * Translated "Publish to workspace".
-     * 
-     * @return translated "Publish to workspace"
-     */
-    @DefaultMessage("Publish to workspace")
-    @Key("publishToWorkspace")
-    String publishToWorkspace();
-
-    /**
      * Translated "Your workflow has been successfully published into your workspace.".
      * 
      * @return translated "Your workflow has been successfully published into your workspace."
