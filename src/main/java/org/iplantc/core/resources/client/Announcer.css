@@ -36,6 +36,17 @@
 	top: 5px !important;
 }
 
+/* This is the styling applied to error announcements */
+.panelError {
+    animation: materialize 1s;
+    background: #DB6619;
+    border: 1px outset #DB6619;
+    border-radius: 1mm;
+    box-shadow: 1mm 1mm 0.7mm rgba(0, 0, 0, 0.3);
+    padding: 1mm;
+    top: 5px !important;
+}
+
 /* This is the additive styling applied to the main announcer panel when there are multiple messages
  * to be announced
  */

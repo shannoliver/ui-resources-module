@@ -29,6 +29,13 @@ public interface AnnouncerStyle extends CssResource {
     String panel();
 
     /**
+     * The styling applied to error announcements.
+     * 
+     * @return the style name
+     */
+    String panelError();
+
+    /**
      * The additive styling applied to the main announcer panel when there are multiple announcements.
      * 
      * @return the additive style name
