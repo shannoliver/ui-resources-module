@@ -17,7 +17,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "About".
-     * 
+     *
      * @return translated "About"
      */
     @DefaultMessage("About")
@@ -26,7 +26,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "About Discovery Environment".
-     * 
+     *
      * @return translated "About Discovery Environment"
      */
     @DefaultMessage("About Discovery Environment")
@@ -35,7 +35,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Add".
-     * 
+     *
      * @return translated "Add"
      */
     @DefaultMessage("Add")
@@ -44,7 +44,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Add to favorite apps.".
-     * 
+     *
      * @return translated "Add to favorite apps."
      */
     @DefaultMessage("Add to favorite apps.")
@@ -53,7 +53,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "New Category".
-     * 
+     *
      * @return translated "New Category"
      */
     @DefaultMessage("New Category")
@@ -62,7 +62,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Reference Genome added.".
-     * 
+     *
      * @return translated "Reference Genome added."
      */
     @DefaultMessage("Reference Genome added.")
@@ -71,7 +71,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select additional data".
-     * 
+     *
      * @return translated "Select additional data"
      */
     @DefaultMessage("Select additional data")
@@ -80,7 +80,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Tool Integration Administration".
-     * 
+     *
      * @return translated "Tool Integration Administration"
      */
     @DefaultMessage("Tool Integration Administration")
@@ -91,7 +91,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "&nbsp;Click on the app name to edit. To re-categorize an app, drag and drop it into appropriate category in the categories tree."
      * .
-     * 
+     *
      * @return translated
      *         "&nbsp;Click on the app name to edit. To re-categorize an app, drag and drop it into appropriate category in the categories tree."
      */
@@ -101,7 +101,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Yes".
-     * 
+     *
      * @return translated "Yes"
      */
     @DefaultMessage("Yes")
@@ -110,7 +110,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Alert".
-     * 
+     *
      * @return translated "Alert"
      */
     @DefaultMessage("Alert")
@@ -119,7 +119,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "See all notifications".
-     * 
+     *
      * @return translated "See all notifications"
      */
     @DefaultMessage("See all notifications")
@@ -128,7 +128,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Analyses".
-     * 
+     *
      * @return translated "Analyses"
      */
     @DefaultMessage("Analyses")
@@ -139,7 +139,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "This will remove selected analyses. Outputs and parameters can still be viewed in the folder in Manage Data that was created by these analyses."
      * .
-     * 
+     *
      * @return translated
      *         "This will remove selected analyses. Outputs and parameters can still be viewed in the folder in Manage Data that was created by these analyses."
      */
@@ -149,7 +149,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Analyses that are not in completed or failed status were not deleted.".
-     * 
+     *
      * @return translated "Analyses that are not in completed or failed status were not deleted."
      */
     @DefaultMessage("Analyses that are not in completed or failed status were not deleted.")
@@ -158,7 +158,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Unable to retrieve the list of analyses.".
-     * 
+     *
      * @return translated "Unable to retrieve the list of analyses."
      */
     @DefaultMessage("Unable to retrieve the list of analyses.")
@@ -167,7 +167,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Enter a description for your application".
-     * 
+     *
      * @return translated "Enter a description for your application"
      */
     @DefaultMessage("Enter a description for your application")
@@ -176,7 +176,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Analysis Name".
-     * 
+     *
      * @return translated "Analysis Name"
      */
     @DefaultMessage("Analysis Name")
@@ -185,7 +185,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Overview".
-     * 
+     *
      * @return translated "Overview"
      */
     @DefaultMessage("Overview")
@@ -194,7 +194,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Analysis {0} stopped successfully.".
-     * 
+     *
      * @return translated "Analysis {0} stopped successfully."
      */
     @DefaultMessage("Analysis {0} stopped successfully.")
@@ -203,7 +203,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Analysis Submitted".
-     * 
+     *
      * @return translated "Analysis Submitted"
      */
     @DefaultMessage("Analysis Submitted")
@@ -214,7 +214,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Your analysis has been submitted. You will be notified about its progress through notifications."
      * .
-     * 
+     *
      * @return translated
      *         "Your analysis has been submitted. You will be notified about its progress through notifications."
      */
@@ -224,7 +224,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Rating Comment".
-     * 
+     *
      * @return translated "Rating Comment"
      */
     @DefaultMessage("Rating Comment")
@@ -233,7 +233,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Please add a comment to accompany your rating of the {0} tool:".
-     * 
+     *
      * @return translated "Please add a comment to accompany your rating of the {0} tool:"
      */
     @DefaultMessage("Please add a comment to accompany your rating of the {0} tool:")
@@ -242,7 +242,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} apps in workflow".
-     * 
+     *
      * @return translated "{0} apps in workflow"
      */
     @DefaultMessage("{0} apps in workflow")
@@ -251,7 +251,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "1 app in workflow".
-     * 
+     *
      * @return translated "1 app in workflow"
      */
     @DefaultMessage("1 app in workflow")
@@ -260,7 +260,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "This will remove the selected app from your workspace. Do you wish to continue?".
-     * 
+     *
      * @return translated
      *         "This will remove the selected app from your workspace. Do you wish to continue?"
      */
@@ -270,7 +270,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Disabled".
-     * 
+     *
      * @return translated "Disabled"
      */
     @DefaultMessage("Disabled")
@@ -279,7 +279,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "App Info".
-     * 
+     *
      * @return translated "App Info"
      */
     @DefaultMessage("App Info")
@@ -288,7 +288,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Apps Integration Module".
-     * 
+     *
      * @return translated "Apps Integration Module"
      */
     @DefaultMessage("Apps Integration Module")
@@ -297,7 +297,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "App".
-     * 
+     *
      * @return translated "App"
      */
     @DefaultMessage("App")
@@ -306,7 +306,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "This app is temporarily unavailable".
-     * 
+     *
      * @return translated "This app is temporarily unavailable"
      */
     @DefaultMessage("This app is temporarily unavailable")
@@ -315,7 +315,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Append {0} to the end of the Workflow.".
-     * 
+     *
      * @return translated "Append {0} to the end of the Workflow."
      */
     @DefaultMessage("Append {0} to the end of the Workflow.")
@@ -324,7 +324,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Apps".
-     * 
+     *
      * @return translated "Apps"
      */
     @DefaultMessage("Apps")
@@ -333,7 +333,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Apply".
-     * 
+     *
      * @return translated "Apply"
      */
     @DefaultMessage("Apply")
@@ -342,7 +342,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Argument option".
-     * 
+     *
      * @return translated "Argument option"
      */
     @DefaultMessage("Argument option")
@@ -351,7 +351,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Argument order".
-     * 
+     *
      * @return translated "Argument order"
      */
     @DefaultMessage("Argument order")
@@ -360,7 +360,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Architecture".
-     * 
+     *
      * @return translated "Architecture"
      */
     @DefaultMessage("Architecture")
@@ -369,7 +369,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Attach sample input files (zip multiple files)".
-     * 
+     *
      * @return translated "Attach sample input files (zip multiple files)"
      */
     @DefaultMessage("Attach sample input files (zip multiple files)")
@@ -378,7 +378,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Attach generated output files and logs (zip multiple files)".
-     * 
+     *
      * @return translated "Attach generated output files and logs (zip multiple files)"
      */
     @DefaultMessage("Attach generated output files and logs (zip multiple files)")
@@ -387,7 +387,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Attribution".
-     * 
+     *
      * @return translated "Attribution"
      */
     @DefaultMessage("Attribution")
@@ -396,7 +396,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Available Files".
-     * 
+     *
      * @return translated "Available Files"
      */
     @DefaultMessage("Available Files")
@@ -405,7 +405,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Average Community Rating".
-     * 
+     *
      * @return translated "Average Community Rating"
      */
     @DefaultMessage("Average Community Rating")
@@ -414,7 +414,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Average User Rating".
-     * 
+     *
      * @return translated "Average User Rating"
      */
     @DefaultMessage("Average User Rating")
@@ -423,7 +423,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Browse".
-     * 
+     *
      * @return translated "Browse"
      */
     @DefaultMessage("Browse")
@@ -432,7 +432,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Browse previously created barcode files:".
-     * 
+     *
      * @return translated "Browse previously created barcode files:"
      */
     @DefaultMessage("Browse previously created barcode files:")
@@ -441,7 +441,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Browse previously created 3'' adapter files:".
-     * 
+     *
      * @return translated "Browse previously created 3'' adapter files:"
      */
     @DefaultMessage("Browse previously created 3'' adapter files:")
@@ -450,7 +450,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Bulk Download".
-     * 
+     *
      * @return translated "Bulk Download"
      */
     @DefaultMessage("Bulk Download")
@@ -459,7 +459,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Bulk Upload from Desktop".
-     * 
+     *
      * @return translated "Bulk Upload from Desktop"
      */
     @DefaultMessage("Bulk Upload from Desktop")
@@ -468,7 +468,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Cancel".
-     * 
+     *
      * @return translated "Cancel"
      */
     @DefaultMessage("Cancel")
@@ -477,7 +477,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Cancel".
-     * 
+     *
      * @return translated "Cancel"
      */
     @DefaultMessage("Cancel")
@@ -486,7 +486,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Unable to load user info".
-     * 
+     *
      * @return translated "Unable to load user info"
      */
     @DefaultMessage("Unable to load user info")
@@ -495,7 +495,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Categories".
-     * 
+     *
      * @return translated "Categories"
      */
     @DefaultMessage("Categories")
@@ -504,7 +504,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Suggested display categories".
-     * 
+     *
      * @return translated "Suggested display categories"
      */
     @DefaultMessage("Suggested display categories")
@@ -513,7 +513,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Change Permissions".
-     * 
+     *
      * @return translated "Change Permissions"
      */
     @DefaultMessage("Change Permissions")
@@ -522,7 +522,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Choose from collaborators".
-     * 
+     *
      * @return translated "Choose from collaborators"
      */
     @DefaultMessage("Choose from collaborators")
@@ -531,7 +531,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click to view app info.".
-     * 
+     *
      * @return translated "Click to view app info."
      */
     @DefaultMessage("Click to view app info.")
@@ -540,7 +540,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "filename".
-     * 
+     *
      * @return translated "filename"
      */
     @DefaultMessage("filename")
@@ -549,7 +549,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Close".
-     * 
+     *
      * @return translated "Close"
      */
     @DefaultMessage("Close")
@@ -558,7 +558,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Close Active window".
-     * 
+     *
      * @return translated "Close Active window"
      */
     @DefaultMessage("Close Active window")
@@ -567,7 +567,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "There are unsaved changes. Do you still want to close the window ?".
-     * 
+     *
      * @return translated "There are unsaved changes. Do you still want to close the window ?"
      */
     @DefaultMessage("There are unsaved changes. Do you still want to close the window ?")
@@ -576,7 +576,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Enter instructions for how to use the tool in the Unix environment".
-     * 
+     *
      * @return translated "Enter instructions for how to use the tool in the Unix environment"
      */
     @DefaultMessage("Enter instructions for how to use the tool in the Unix environment")
@@ -585,7 +585,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Search for users".
-     * 
+     *
      * @return translated "Search for users"
      */
     @DefaultMessage("Search for users")
@@ -594,7 +594,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0}  is now collaborator with you.".
-     * 
+     *
      * @return translated "{0}  is now collaborator with you."
      */
     @DefaultMessage("{0}  is now collaborator with you.")
@@ -603,7 +603,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Collaborator Added".
-     * 
+     *
      * @return translated "Collaborator Added"
      */
     @DefaultMessage("Collaborator Added")
@@ -612,7 +612,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0}  removed from your collaborators list".
-     * 
+     *
      * @return translated "{0}  removed from your collaborators list"
      */
     @DefaultMessage("{0}  removed from your collaborators list")
@@ -621,7 +621,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Collaborator Removed".
-     * 
+     *
      * @return translated "Collaborator Removed"
      */
     @DefaultMessage("Collaborator Removed")
@@ -630,7 +630,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Your search exceeded the threshold. Please refine your search.".
-     * 
+     *
      * @return translated "Your search exceeded the threshold. Please refine your search."
      */
     @DefaultMessage("Your search exceeded the threshold. Please refine your search.")
@@ -639,7 +639,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Collaborators".
-     * 
+     *
      * @return translated "Collaborators"
      */
     @DefaultMessage("Collaborators")
@@ -648,14 +648,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Text displayed to collapse all nodes in a tree.
-     * 
+     *
      * @return
      */
     String collapseAll();
 
     /**
      * Translated "Comments".
-     * 
+     *
      * @return translated "Comments"
      */
     @DefaultMessage("Comments")
@@ -664,7 +664,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Confirm".
-     * 
+     *
      * @return translated "Confirm"
      */
     @DefaultMessage("Confirm")
@@ -673,7 +673,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Do you want to delete the app \"{0}\"?".
-     * 
+     *
      * @return translated "Do you want to delete the app \"{0}\"?"
      */
     @DefaultMessage("Do you want to delete the app \"{0}\"?")
@@ -682,7 +682,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Do you want to delete the category \"{0}\"?".
-     * 
+     *
      * @return translated "Do you want to delete the category \"{0}\"?"
      */
     @DefaultMessage("Do you want to delete the category \"{0}\"?")
@@ -691,7 +691,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Delete App".
-     * 
+     *
      * @return translated "Delete App"
      */
     @DefaultMessage("Delete App")
@@ -702,7 +702,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "You have selected a non-empty folder. This may cause files in the folder to be overwritten. Continue?"
      * .
-     * 
+     *
      * @return translated
      *         "You have selected a non-empty folder. This may cause files in the folder to be overwritten. Continue?"
      */
@@ -712,7 +712,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Support".
-     * 
+     *
      * @return translated "Support"
      */
     @DefaultMessage("Support")
@@ -721,7 +721,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Contact Information".
-     * 
+     *
      * @return translated "Contact Information"
      */
     @DefaultMessage("Contact Information")
@@ -730,7 +730,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Copy".
-     * 
+     *
      * @return translated "Copy"
      */
     @DefaultMessage("Copy")
@@ -739,7 +739,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Copy / Paste".
-     * 
+     *
      * @return translated "Copy / Paste"
      */
     @DefaultMessage("Hit ctrl-c or cmd-c to copy.")
@@ -748,7 +748,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Create".
-     * 
+     *
      * @return translated "Create"
      */
     @DefaultMessage("Create")
@@ -757,7 +757,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Create Apps".
-     * 
+     *
      * @return translated "Create Apps"
      */
     @DefaultMessage("Create Apps")
@@ -766,7 +766,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Enter barcodes used in library:".
-     * 
+     *
      * @return translated "Enter barcodes used in library:"
      */
     @DefaultMessage("Enter barcodes used in library:")
@@ -775,7 +775,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Create barcode file for future use:".
-     * 
+     *
      * @return translated "Create barcode file for future use:"
      */
     @DefaultMessage("Create barcode file for future use:")
@@ -784,7 +784,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Enter 3'' adapters used in library:".
-     * 
+     *
      * @return translated "Enter 3'' adapters used in library:"
      */
     @DefaultMessage("Enter 3'' adapters used in library:")
@@ -793,7 +793,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Create 3'' adapter file for future use:".
-     * 
+     *
      * @return translated "Create 3'' adapter file for future use:"
      */
     @DefaultMessage("Create 3'' adapter file for future use:")
@@ -802,7 +802,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Create in {0}.".
-     * 
+     *
      * @return translated "Create in {0}."
      */
     @DefaultMessage("Create in {0}.")
@@ -811,7 +811,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "New App".
-     * 
+     *
      * @return translated "New App"
      */
     @DefaultMessage("New App")
@@ -820,7 +820,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Automated Workflow".
-     * 
+     *
      * @return translated "Automated Workflow"
      */
     @DefaultMessage("Automated Workflow")
@@ -829,7 +829,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Created By".
-     * 
+     *
      * @return translated "Created By"
      */
     @DefaultMessage("Created By")
@@ -838,7 +838,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Date Submitted".
-     * 
+     *
      * @return translated "Date Submitted"
      */
     @DefaultMessage("Date Submitted")
@@ -847,7 +847,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Created Date".
-     * 
+     *
      * @return translated "Created Date"
      */
     @DefaultMessage("Created Date")
@@ -856,7 +856,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Created On".
-     * 
+     *
      * @return translated "Created On"
      */
     @DefaultMessage("Created On")
@@ -865,7 +865,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "show current collaborators".
-     * 
+     *
      * @return translated "show current collaborators"
      */
     @DefaultMessage("show current collaborators")
@@ -874,7 +874,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Data".
-     * 
+     *
      * @return translated "Data"
      */
     @DefaultMessage("Data")
@@ -883,7 +883,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} items selected".
-     * 
+     *
      * @return translated "{0} items selected"
      */
     @DefaultMessage("{0} items selected")
@@ -892,14 +892,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Text displayed at top of Manage Data Link window.
-     * 
+     *
      * @return
      */
     String dataLinkWarning();
 
     /**
      * Translated "Date".
-     * 
+     *
      * @return translated "Date"
      */
     @DefaultMessage("Date")
@@ -908,7 +908,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Date Submitted".
-     * 
+     *
      * @return translated "Date Submitted"
      */
     @DefaultMessage("Date Submitted")
@@ -919,7 +919,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Retain Inputs? Enabling this flag will copy all the input files into the analysis result folder."
      * .
-     * 
+     *
      * @return translated
      *         "Retain Inputs? Enabling this flag will copy all the input files into the analysis result folder."
      */
@@ -929,7 +929,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "analysis1".
-     * 
+     *
      * @return translated "analysis1"
      */
     @Override
@@ -939,7 +939,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "<b> Default analysis output folder </b>".
-     * 
+     *
      * @return translated "<b> Default analysis output folder </b>"
      */
     @DefaultMessage("<b> Default analysis output folder </b>")
@@ -956,7 +956,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * You can keep the default path or click Browse to select a new location.
      * </p>
      * ".
-     * 
+     *
      * @return translated "
      *         <p>
      *         This will be the default location where all outputs from your analyses can be found.
@@ -973,7 +973,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Delete".
-     * 
+     *
      * @return translated "Delete"
      */
     @DefaultMessage("Delete")
@@ -982,7 +982,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Delete All".
-     * 
+     *
      * @return translated "Delete All"
      */
     @DefaultMessage("Delete All")
@@ -991,14 +991,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Tool tip text displayed when hovering over the delete button in the Manage Data Links window.
-     * 
+     *
      * @return
      */
     String deleteDataLinkToolTip();
 
     /**
      * Translated "All are deleted files and folders are available under trash.".
-     * 
+     *
      * @return translated "All are deleted files and folders are available under trash."
      */
     @DefaultMessage("All are deleted files and folders are available under trash.")
@@ -1007,7 +1007,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Delete Selected".
-     * 
+     *
      * @return translated "Delete Selected"
      */
     @DefaultMessage("Delete Selected")
@@ -1016,7 +1016,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Deleted".
-     * 
+     *
      * @return translated "Deleted"
      */
     @DefaultMessage("Deleted")
@@ -1025,7 +1025,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Description".
-     * 
+     *
      * @return translated "Description"
      */
     @DefaultMessage("Description")
@@ -1034,7 +1034,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Details".
-     * 
+     *
      * @return translated "Details"
      */
     @DefaultMessage("Details")
@@ -1043,7 +1043,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Poor".
-     * 
+     *
      * @return translated "Poor"
      */
     @DefaultMessage("Poor")
@@ -1052,7 +1052,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Disabled".
-     * 
+     *
      * @return translated "Disabled"
      */
     @DefaultMessage("Disabled")
@@ -1061,7 +1061,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Display in GUI".
-     * 
+     *
      * @return translated "Display in GUI"
      */
     @DefaultMessage("Display in GUI")
@@ -1070,7 +1070,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Link to tool documentation".
-     * 
+     *
      * @return translated "Link to tool documentation"
      */
     @DefaultMessage("Link to tool documentation")
@@ -1079,7 +1079,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Documentation".
-     * 
+     *
      * @return translated "Documentation"
      */
     @DefaultMessage("Documentation")
@@ -1088,7 +1088,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Done".
-     * 
+     *
      * @return translated "Done"
      */
     @DefaultMessage("Done")
@@ -1097,7 +1097,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Move Down".
-     * 
+     *
      * @return translated "Move Down"
      */
     @DefaultMessage("Move Down")
@@ -1106,7 +1106,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Download".
-     * 
+     *
      * @return translated "Download"
      */
     @DefaultMessage("Download")
@@ -1115,7 +1115,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Download Result".
-     * 
+     *
      * @return translated "Download Result"
      */
     @DefaultMessage("Download Result")
@@ -1124,7 +1124,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "You can drag 'n' drop file(s) from Data window".
-     * 
+     *
      * @return translated "You can drag 'n' drop file(s) from Data window"
      */
     @DefaultMessage("You can drag 'n' drop file(s) from Data window")
@@ -1133,7 +1133,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Drag and drop Apps here to add them to the Workflow.".
-     * 
+     *
      * @return translated "Drag and drop Apps here to add them to the Workflow."
      */
     @DefaultMessage("Drag and drop Apps here to add them to the Workflow.")
@@ -1142,7 +1142,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Edit".
-     * 
+     *
      * @return translated "Edit"
      */
     @DefaultMessage("Edit")
@@ -1151,7 +1151,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Email".
-     * 
+     *
      * @return translated "Email"
      */
     @DefaultMessage("Email")
@@ -1160,7 +1160,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Empty Trash".
-     * 
+     *
      * @return translated "Empty Trash"
      */
     @DefaultMessage("Empty Trash")
@@ -1169,7 +1169,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "This action cannot be undone. Do you wish to continue ?".
-     * 
+     *
      * @return translated "This action cannot be undone. Do you wish to continue ?"
      */
     @DefaultMessage("This action cannot be undone. Do you wish to continue ?")
@@ -1178,7 +1178,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Enabled".
-     * 
+     *
      * @return translated "Enabled"
      */
     @DefaultMessage("Enabled")
@@ -1187,7 +1187,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "End Date".
-     * 
+     *
      * @return translated "End Date"
      */
     @DefaultMessage("End Date")
@@ -1196,7 +1196,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Enter any additional comments".
-     * 
+     *
      * @return translated "Enter any additional comments"
      */
     @DefaultMessage("Enter any additional comments")
@@ -1205,7 +1205,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Error".
-     * 
+     *
      * @return translated "Error"
      */
     @DefaultMessage("Error")
@@ -1214,7 +1214,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Exclude Argument option when field is empty".
-     * 
+     *
      * @return translated "Exclude Argument option when field is empty"
      */
     @DefaultMessage("Exclude Argument option when field is empty")
@@ -1223,7 +1223,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click to execute this app.".
-     * 
+     *
      * @return translated "Click to execute this app."
      */
     @DefaultMessage("Click to execute this app.")
@@ -1232,14 +1232,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Text displayed to expand all nodes in a tree.
-     * 
+     *
      * @return
      */
     String expandAll();
 
     /**
      * Translated "Explain".
-     * 
+     *
      * @return translated "Explain"
      */
     @DefaultMessage("Explain")
@@ -1257,7 +1257,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "This field is required".
-     * 
+     *
      * @return translated "This field is required"
      */
     @DefaultMessage("This field is required")
@@ -1266,7 +1266,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Description".
-     * 
+     *
      * @return translated "Description"
      */
     @DefaultMessage("Description")
@@ -1275,7 +1275,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "File Name".
-     * 
+     *
      * @return translated "File Name"
      */
     @DefaultMessage("File Name")
@@ -1285,7 +1285,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     /**
      * Translated
      * "Only 8K of the selected file is displayed. For full view of data, please download file.".
-     * 
+     *
      * @return translated
      *         "Only 8K of the selected file is displayed. For full view of data, please download file."
      */
@@ -1295,7 +1295,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "File Upload".
-     * 
+     *
      * @return translated "File Upload"
      */
     @DefaultMessage("File Upload")
@@ -1304,7 +1304,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Uploading to {0}.".
-     * 
+     *
      * @return translated "Uploading to {0}."
      */
     @DefaultMessage("Uploading to {0}.")
@@ -1313,7 +1313,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Maximum total file upload size is 1.9GB.".
-     * 
+     *
      * @return translated "Maximum total file upload size is 1.9GB."
      */
     @DefaultMessage("Maximum total file upload size is 1.9GB.")
@@ -1322,7 +1322,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} uploaded successfully.".
-     * 
+     *
      * @return translated "{0} uploaded successfully."
      */
     @DefaultMessage("{0} uploaded successfully.")
@@ -1331,7 +1331,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "File(s)".
-     * 
+     *
      * @return translated "File(s)"
      */
     @DefaultMessage("File(s)")
@@ -1340,7 +1340,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Filter by Name or App".
-     * 
+     *
      * @return translated "Filter by Name or App"
      */
     @DefaultMessage("Filter by Name or App")
@@ -1349,7 +1349,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Filter by name".
-     * 
+     *
      * @return translated "Filter by name"
      */
     @DefaultMessage("Filter by name")
@@ -1358,7 +1358,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Folder Name".
-     * 
+     *
      * @return translated "Folder Name"
      */
     @DefaultMessage("Folder Name")
@@ -1367,7 +1367,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Folder(s)".
-     * 
+     *
      * @return translated "Folder(s)"
      */
     @DefaultMessage("Folder(s)")
@@ -1376,7 +1376,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Forums".
-     * 
+     *
      * @return translated "Forums"
      */
     @DefaultMessage("Forums")
@@ -1385,7 +1385,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Group by Data".
-     * 
+     *
      * @return translated "Group by Data"
      */
     @DefaultMessage("Group by Data")
@@ -1394,7 +1394,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Group by User".
-     * 
+     *
      * @return translated "Group by User"
      */
     @DefaultMessage("Group by User")
@@ -1403,7 +1403,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "GWT Version:".
-     * 
+     *
      * @return translated "GWT Version:"
      */
     @DefaultMessage("GWT Version:")
@@ -1412,7 +1412,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "GXT Version:".
-     * 
+     *
      * @return translated "GXT Version:"
      */
     @DefaultMessage("GXT Version:")
@@ -1421,7 +1421,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Not useful".
-     * 
+     *
      * @return translated "Not useful"
      */
     @DefaultMessage("Not useful")
@@ -1430,7 +1430,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Help".
-     * 
+     *
      * @return translated "Help"
      */
     @DefaultMessage("Help")
@@ -1439,7 +1439,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Hide".
-     * 
+     *
      * @return translated "Hide"
      */
     @DefaultMessage("Hide")
@@ -1448,7 +1448,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Host".
-     * 
+     *
      * @return translated "Host"
      */
     @DefaultMessage("Host")
@@ -1457,7 +1457,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Argument, idParent, must have a valid value provided.".
-     * 
+     *
      * @return translated "Argument, idParent, must have a valid value provided."
      */
     @DefaultMessage("Argument, idParent, must have a valid value provided.")
@@ -1467,7 +1467,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     /**
      * Translated
      * "Are you sure you want to close this window? Closing may interrupt any transfers in progress.".
-     * 
+     *
      * @return translated
      *         "Are you sure you want to close this window? Closing may interrupt any transfers in progress."
      */
@@ -1477,7 +1477,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Confirm".
-     * 
+     *
      * @return translated "Confirm"
      */
     @DefaultMessage("Confirm")
@@ -1488,7 +1488,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "You must close this window, after the current download is complete, before beginning a new download."
      * .
-     * 
+     *
      * @return translated
      *         "You must close this window, after the current download is complete, before beginning a new download."
      */
@@ -1498,7 +1498,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Image".
-     * 
+     *
      * @return translated "Image"
      */
     @DefaultMessage("Image")
@@ -1507,7 +1507,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select Barcode File".
-     * 
+     *
      * @return translated "Select Barcode File"
      */
     @DefaultMessage("Select Barcode File")
@@ -1516,7 +1516,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select 3'' Adapter File".
-     * 
+     *
      * @return translated "Select 3'' Adapter File"
      */
     @DefaultMessage("Select 3'' Adapter File")
@@ -1525,7 +1525,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Import".
-     * 
+     *
      * @return translated "Import"
      */
     @DefaultMessage("Import")
@@ -1534,16 +1534,27 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} is uploading and will be available shortly.".
-     * 
+     *
      * @return translated "{0} is uploading and will be available shortly."
      */
     @DefaultMessage("{0} is uploading and will be available shortly.")
     @Key("importRequestSubmit")
     String importRequestSubmit(String arg0);
 
+
+    /**
+     * Translated "Select a valid page".
+     *
+     * @return translated "Select a valid page"
+     */
+    @DefaultMessage("Select a valid page")
+    @Key("inValidPage")
+    String inValidPage();
+
+
     /**
      * Translated "This field requires a valid url".
-     * 
+     *
      * @return translated "This field requires a valid url"
      */
     @DefaultMessage("This field requires a valid url")
@@ -1554,7 +1565,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Currently, only linear workflows may be created. At least one input for each app must come from an output of a previous app."
      * .
-     * 
+     *
      * @return translated
      *         "Currently, only linear workflows may be created. At least one input for each app must come from an output of a previous app."
      */
@@ -1564,7 +1575,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Information".
-     * 
+     *
      * @return translated "Information"
      */
     @DefaultMessage("Information")
@@ -1573,7 +1584,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Input Label".
-     * 
+     *
      * @return translated "Input Label"
      */
     @DefaultMessage("Input Label")
@@ -1582,7 +1593,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "At least one input for each app must come from an output of a previous app.".
-     * 
+     *
      * @return translated "At least one input for each app must come from an output of a previous app."
      */
     @DefaultMessage("At least one input for each app must come from an output of a previous app.")
@@ -1591,7 +1602,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Institution".
-     * 
+     *
      * @return translated "Institution"
      */
     @DefaultMessage("Institution")
@@ -1600,7 +1611,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Integrated Tools".
-     * 
+     *
      * @return translated "Integrated Tools"
      */
     @DefaultMessage("Integrated Tools")
@@ -1609,7 +1620,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Integrated by".
-     * 
+     *
      * @return translated "Integrated by"
      */
     @DefaultMessage("Integrated by")
@@ -1618,7 +1629,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Integrator".
-     * 
+     *
      * @return translated "Integrator"
      */
     @DefaultMessage("Integrator")
@@ -1627,7 +1638,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Integrator email".
-     * 
+     *
      * @return translated "Integrator email"
      */
     @DefaultMessage("Integrator email")
@@ -1636,7 +1647,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Integrator name".
-     * 
+     *
      * @return translated "Integrator name"
      */
     @DefaultMessage("Integrator name")
@@ -1647,7 +1658,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "A valid URL must begin with either ftp or http or https and cannot end with a space or a /. It must contain a valid path to a file after the domain name."
      * .
-     * 
+     *
      * @return translated
      *         "A valid URL must begin with either ftp or http or https and cannot end with a space or a /. It must contain a valid path to a file after the domain name."
      */
@@ -1657,7 +1668,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Invalid reference genonme path.".
-     * 
+     *
      * @return translated "Invalid reference genonme path."
      */
     @DefaultMessage("Invalid reference genonme path.")
@@ -1666,7 +1677,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Is the tool multi-threaded".
-     * 
+     *
      * @return translated "Is the tool multi-threaded"
      */
     @DefaultMessage("Is the tool multi-threaded")
@@ -1675,7 +1686,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "You do not have Java enabled!".
-     * 
+     *
      * @return translated "You do not have Java enabled!"
      */
     @DefaultMessage("You do not have Java enabled!")
@@ -1684,7 +1695,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Keyboard Shortcuts".
-     * 
+     *
      * @return translated "Keyboard Shortcuts"
      */
     @DefaultMessage("Keyboard Shortcuts")
@@ -1693,7 +1704,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Label".
-     * 
+     *
      * @return translated "Label"
      */
     @DefaultMessage("Label")
@@ -1702,7 +1713,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Last: {0}".
-     * 
+     *
      * @return translated "Last: {0}"
      */
     @DefaultMessage("Last: {0}")
@@ -1711,7 +1722,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "N/A".
-     * 
+     *
      * @return translated "N/A"
      */
     @DefaultMessage("N/A")
@@ -1720,7 +1731,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Last Modified By".
-     * 
+     *
      * @return translated "Last Modified By"
      */
     @DefaultMessage("Last Modified By")
@@ -1729,7 +1740,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Last Modified On".
-     * 
+     *
      * @return translated "Last Modified On"
      */
     @DefaultMessage("Last Modified On")
@@ -1738,7 +1749,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Last Modified".
-     * 
+     *
      * @return translated "Last Modified"
      */
     @DefaultMessage("Last Modified")
@@ -1747,7 +1758,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Launch Analysis".
-     * 
+     *
      * @return translated "Launch Analysis"
      */
     @DefaultMessage("Launch Analysis")
@@ -1756,7 +1767,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Analysis '{'0'}' successfully launched.".
-     * 
+     *
      * @return translated "Analysis '{'0'}' successfully launched."
      */
     @DefaultMessage("Analysis '{'0'}' successfully launched.")
@@ -1765,7 +1776,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Launching analysis...".
-     * 
+     *
      * @return translated "Launching analysis..."
      */
     @DefaultMessage("Launching analysis...")
@@ -1774,7 +1785,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Works".
-     * 
+     *
      * @return translated "Works"
      */
     @DefaultMessage("Works")
@@ -1783,7 +1794,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Link".
-     * 
+     *
      * @return translated "Link"
      */
     @DefaultMessage("Link")
@@ -1792,7 +1803,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Links".
-     * 
+     *
      * @return translated "Links"
      */
     @DefaultMessage("Links")
@@ -1801,7 +1812,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Loading...".
-     * 
+     *
      * @return translated "Loading..."
      */
     @DefaultMessage("Loading...")
@@ -1810,7 +1821,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Loading Session".
-     * 
+     *
      * @return translated "Loading Session"
      */
     @DefaultMessage("Loading Session")
@@ -1819,7 +1830,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Loading last session, please wait...".
-     * 
+     *
      * @return translated "Loading last session, please wait..."
      */
     @DefaultMessage("Loading last session, please wait...")
@@ -1828,7 +1839,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Logout".
-     * 
+     *
      * @return translated "Logout"
      */
     @DefaultMessage("Logout")
@@ -1839,7 +1850,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Please click <a href=''{0}''>here</a> if not redirected to the logout page within a few seconds."
      * .
-     * 
+     *
      * @return translated
      *         "Please click <a href=''{0}''>here</a> if not redirected to the logout page within a few seconds."
      */
@@ -1851,7 +1862,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "You will be logged out from all the active sessions of Discovery Environment and Tool Integration."
      * .
-     * 
+     *
      * @return translated
      *         "You will be logged out from all the active sessions of Discovery Environment and Tool Integration."
      */
@@ -1861,7 +1872,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Exceptional".
-     * 
+     *
      * @return translated "Exceptional"
      */
     @DefaultMessage("Exceptional")
@@ -1870,7 +1881,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Major:".
-     * 
+     *
      * @return translated "Major:"
      */
     @DefaultMessage("Major:")
@@ -1879,7 +1890,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Submit for public use".
-     * 
+     *
      * @return translated "Submit for public use"
      */
     @DefaultMessage("Submit for public use")
@@ -1888,7 +1899,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Your app could not be made public.".
-     * 
+     *
      * @return translated "Your app could not be made public."
      */
     @DefaultMessage("Your app could not be made public.")
@@ -1899,7 +1910,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Your app is now public. Please complete the <a href=\"{0}\" target=\"_blank\">documentation page</a>."
      * .
-     * 
+     *
      * @return translated
      *         "Your app is now public. Please complete the <a href=\"{0}\" target=\"_blank\">documentation page</a>."
      */
@@ -1909,7 +1920,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "App has been made public.".
-     * 
+     *
      * @return translated "App has been made public."
      */
     @DefaultMessage("App has been made public.")
@@ -1918,7 +1929,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Manage Data".
-     * 
+     *
      * @return translated "Manage Data"
      */
     @DefaultMessage("Manage Data")
@@ -1927,14 +1938,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Menu text for button to Manage Data Link tickets.
-     * 
+     *
      * @return
      */
     String manageDataLinks();
 
     /**
      * Translated "Manage Sharing".
-     * 
+     *
      * @return translated "Manage Sharing"
      */
     @DefaultMessage("Manage Sharing")
@@ -1943,7 +1954,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Map Outputs to Inputs".
-     * 
+     *
      * @return translated "Map Outputs to Inputs"
      */
     @DefaultMessage("Map Outputs to Inputs")
@@ -1952,7 +1963,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Mark All As Read".
-     * 
+     *
      * @return translated "Mark All As Read"
      */
     @DefaultMessage("Mark All As Read")
@@ -1961,7 +1972,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "All new notifications were marked as read.".
-     * 
+     *
      * @return translated "All new notifications were marked as read."
      */
     @DefaultMessage("All new notifications were marked as read.")
@@ -1970,7 +1981,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Mark as favorite".
-     * 
+     *
      * @return translated "Mark as favorite"
      */
     @DefaultMessage("Mark as favorite")
@@ -1979,7 +1990,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Maximize".
-     * 
+     *
      * @return translated "Maximize"
      */
     @DefaultMessage("Maximize")
@@ -1988,7 +1999,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * The system message arrival announcement message.
-     * 
+     *
      * @return the message
      */
     @DefaultMessage("You have an important message.")
@@ -1997,7 +2008,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Messages".
-     * 
+     *
      * @return translated "Messages"
      */
     @DefaultMessage("Messages")
@@ -2006,7 +2017,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Metadata".
-     * 
+     *
      * @return translated "Metadata"
      */
     @DefaultMessage("Metadata")
@@ -2015,7 +2026,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Minimize".
-     * 
+     *
      * @return translated "Minimize"
      */
     @DefaultMessage("Minimize")
@@ -2024,7 +2035,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Minor:".
-     * 
+     *
      * @return translated "Minor:"
      */
     @DefaultMessage("Minor:")
@@ -2033,7 +2044,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "More Actions".
-     * 
+     *
      * @return translated "More Actions"
      */
     @DefaultMessage("More Actions")
@@ -2042,7 +2053,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Move down".
-     * 
+     *
      * @return translated "Move down"
      */
     @DefaultMessage("Move down")
@@ -2051,7 +2062,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Move Up".
-     * 
+     *
      * @return translated "Move Up"
      */
     @DefaultMessage("Move Up")
@@ -2060,7 +2071,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "My Collaborators".
-     * 
+     *
      * @return translated "My Collaborators"
      */
     @DefaultMessage("My Collaborators")
@@ -2069,7 +2080,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "View Notifications".
-     * 
+     *
      * @return translated "View Notifications"
      */
     @DefaultMessage("View Notifications")
@@ -2078,7 +2089,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} bytes".
-     * 
+     *
      * @return translated "{0} bytes"
      */
     @DefaultMessage("{0} bytes")
@@ -2087,7 +2098,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} GB".
-     * 
+     *
      * @return translated "{0} GB"
      */
     @DefaultMessage("{0} GB")
@@ -2096,7 +2107,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} KB".
-     * 
+     *
      * @return translated "{0} KB"
      */
     @DefaultMessage("{0} KB")
@@ -2105,7 +2116,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "{0} MB".
-     * 
+     *
      * @return translated "{0} MB"
      */
     @DefaultMessage("{0} MB")
@@ -2114,7 +2125,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Name".
-     * 
+     *
      * @return translated "Name"
      */
     @DefaultMessage("Name")
@@ -2125,7 +2136,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Letters, numbers, hyphens (-), underscores (_), and periods (.) are allowed. Spaces may be used if not at the beginning or end of the file name."
      * .
-     * 
+     *
      * @return translated
      *         "Letters, numbers, hyphens (-), underscores (_), and periods (.) are allowed. Spaces may be used if not at the beginning or end of the file name."
      */
@@ -2137,7 +2148,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "You are about to navigate away from this page. Unsaved changes will be lost. Do you wish to continue?"
      * .
-     * 
+     *
      * @return translated
      *         "You are about to navigate away from this page. Unsaved changes will be lost. Do you wish to continue?"
      */
@@ -2147,7 +2158,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No".
-     * 
+     *
      * @return translated "No"
      */
     @DefaultMessage("No")
@@ -2156,7 +2167,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "New App".
-     * 
+     *
      * @return translated "New App"
      */
     @DefaultMessage("New App")
@@ -2165,7 +2176,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Create Barcode File".
-     * 
+     *
      * @return translated "Create Barcode File"
      */
     @DefaultMessage("Create Barcode File")
@@ -2174,7 +2185,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Create 3'' Adapter File".
-     * 
+     *
      * @return translated "Create 3'' Adapter File"
      */
     @DefaultMessage("Create 3'' Adapter File")
@@ -2183,7 +2194,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "New Folder".
-     * 
+     *
      * @return translated "New Folder"
      */
     @DefaultMessage("New Folder")
@@ -2192,7 +2203,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "New Notifications".
-     * 
+     *
      * @return translated "New Notifications"
      */
     @DefaultMessage("New Notifications")
@@ -2203,7 +2214,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "You have new notifications. Please select 'Notifications' link from top level menu to view them."
      * .
-     * 
+     *
      * @return translated
      *         "You have new notifications. Please select 'Notifications' link from top level menu to view them."
      */
@@ -2213,7 +2224,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "New Tool Request".
-     * 
+     *
      * @return translated "New Tool Request"
      */
     @DefaultMessage("New Tool Request")
@@ -2224,7 +2235,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "An error occurred while processing your request. Please contact iPlant support at support@iplantcollaborative.org."
      * .
-     * 
+     *
      * @return translated
      *         "An error occurred while processing your request. Please contact iPlant support at support@iplantcollaborative.org."
      */
@@ -2234,7 +2245,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No items to display".
-     * 
+     *
      * @return translated "No items to display"
      */
     @DefaultMessage("No items to display")
@@ -2243,7 +2254,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select Apps for workflow construction".
-     * 
+     *
      * @return translated "Select Apps for workflow construction"
      */
     @DefaultMessage("Select Apps for workflow construction")
@@ -2252,7 +2263,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "search and add new collaborators".
-     * 
+     *
      * @return translated "search and add new collaborators"
      */
     @DefaultMessage("search and add new collaborators")
@@ -2261,7 +2272,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No results found.".
-     * 
+     *
      * @return translated "No results found."
      */
     @DefaultMessage("No results found.")
@@ -2270,7 +2281,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "select any one file / folder to view its details".
-     * 
+     *
      * @return translated "select any one file / folder to view its details"
      */
     @DefaultMessage("select any one file / folder to view its details")
@@ -2279,7 +2290,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No files to display.".
-     * 
+     *
      * @return translated "No files to display."
      */
     @DefaultMessage("No files to display.")
@@ -2288,7 +2299,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No items to display.".
-     * 
+     *
      * @return translated "No items to display."
      */
     @DefaultMessage("No items to display.")
@@ -2297,7 +2308,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No new notifications!".
-     * 
+     *
      * @return translated "No new notifications!"
      */
     @DefaultMessage("No new notifications!")
@@ -2306,7 +2317,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No notifications to display.".
-     * 
+     *
      * @return translated "No notifications to display."
      */
     @DefaultMessage("No notifications to display.")
@@ -2315,7 +2326,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "No parameters to display.".
-     * 
+     *
      * @return translated "No parameters to display."
      */
     @DefaultMessage("No parameters to display.")
@@ -2324,14 +2335,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * msg to show when there are no results to display
-     * 
+     *
      * @return
      */
     String noSearchResults(String searchTerm);
 
     /**
      * Translated "Begin sharing".
-     * 
+     *
      * @return translated "Begin sharing"
      */
     @DefaultMessage("Begin sharing")
@@ -2349,7 +2360,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "must be a valid iPlant Wiki Documentation URL".
-     * 
+     *
      * @return translated "must be a valid iPlant Wiki Documentation URL"
      */
     @DefaultMessage("must be a valid iPlant Wiki Documentation URL")
@@ -2358,7 +2369,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Notifications".
-     * 
+     *
      * @return translated "Notifications"
      */
     @DefaultMessage("Notifications")
@@ -2367,7 +2378,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Notify me by email when my analysis status changes.".
-     * 
+     *
      * @return translated "Notify me by email when my analysis status changes."
      */
     @DefaultMessage("Notify me by email when my analysis status changes.")
@@ -2389,7 +2400,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Discovery Environment.
      * </p>
      * ".
-     * 
+     *
      * @return translated "
      *         <p>
      *         This option will send you an email when the status of your analysis changes (running,
@@ -2413,7 +2424,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "The iPlant Collaborative is funded by a grant from the National Science Foundation Plant Science Cyberinfrastructure Collaborative (#DBI-0735191)."
      * .
-     * 
+     *
      * @return translated
      *         "The iPlant Collaborative is funded by a grant from the National Science Foundation Plant Science Cyberinfrastructure Collaborative (#DBI-0735191)."
      */
@@ -2423,7 +2434,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Open Analyses window".
-     * 
+     *
      * @return translated "Open Analyses window"
      */
     @DefaultMessage("Open Analyses window")
@@ -2432,7 +2443,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Open Apps window".
-     * 
+     *
      * @return translated "Open Apps window"
      */
     @DefaultMessage("Open Apps window")
@@ -2441,7 +2452,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Open Data window".
-     * 
+     *
      * @return translated "Open Data window"
      */
     @DefaultMessage("Open Data window")
@@ -2450,7 +2461,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * The open system messages window link text
-     * 
+     *
      * @return the text
      */
     @DefaultMessage("Read now.")
@@ -2459,7 +2470,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Open Notifications window".
-     * 
+     *
      * @return translated "Open Notifications window"
      */
     @DefaultMessage("Open Notifications window")
@@ -2468,7 +2479,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Other Information".
-     * 
+     *
      * @return translated "Other Information"
      */
     @DefaultMessage("Other Information")
@@ -2477,7 +2488,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Other Information".
-     * 
+     *
      * @return translated "Other Information"
      */
     @DefaultMessage("Enter any other Information")
@@ -2486,7 +2497,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Other data".
-     * 
+     *
      * @return translated "Other data"
      */
     @DefaultMessage("Upload any supplemental data")
@@ -2495,7 +2506,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Output(s)".
-     * 
+     *
      * @return translated "Output(s)"
      */
     @DefaultMessage("Output(s)")
@@ -2504,7 +2515,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "own".
-     * 
+     *
      * @return translated "own"
      */
     @DefaultMessage("own")
@@ -2513,7 +2524,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Owner".
-     * 
+     *
      * @return translated "Owner"
      */
     @DefaultMessage("Owner")
@@ -2521,8 +2532,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String owner();
 
     /**
+     * Translated "page size".
+     *
+     * @return translated "page size"
+     */
+    @DefaultMessage("Page Size (KB)")
+    @Key("pageSize")
+    String pageSize();
+
+    /**
      * Translated "Name".
-     * 
+     *
      * @return translated "Name"
      */
     @DefaultMessage("Name")
@@ -2531,7 +2551,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Type".
-     * 
+     *
      * @return translated "Type"
      */
     @DefaultMessage("Type")
@@ -2540,7 +2560,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Value".
-     * 
+     *
      * @return translated "Value"
      */
     @DefaultMessage("Value")
@@ -2548,14 +2568,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String paramValue();
 
     /**
-     * 
+     *
      * @return
      */
     String partialRestore();
 
     /**
      * Translated "Path".
-     * 
+     *
      * @return translated "Path"
      */
     @DefaultMessage("Path")
@@ -2564,7 +2584,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "You do not have the permission to perform this operation on the selected item(s).".
-     * 
+     *
      * @return translated
      *         "You do not have the permission to perform this operation on the selected item(s)."
      */
@@ -2574,7 +2594,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Permission Error".
-     * 
+     *
      * @return translated "Permission Error"
      */
     @DefaultMessage("Permission Error")
@@ -2583,7 +2603,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Permissions".
-     * 
+     *
      * @return translated "Permissions"
      */
     @DefaultMessage("Permissions")
@@ -2592,7 +2612,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Phone".
-     * 
+     *
      * @return translated "Phone"
      */
     @DefaultMessage("Phone")
@@ -2601,7 +2621,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Automate Workflow".
-     * 
+     *
      * @return translated "Automate Workflow"
      */
     @DefaultMessage("Automate Workflow")
@@ -2610,7 +2630,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Description".
-     * 
+     *
      * @return translated "Description"
      */
     @DefaultMessage("Description")
@@ -2619,7 +2639,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Name".
-     * 
+     *
      * @return translated "Name"
      */
     @DefaultMessage("Name")
@@ -2628,7 +2648,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Pop-up Warning".
-     * 
+     *
      * @return translated "Pop-up Warning"
      */
     @DefaultMessage("Pop-up Warning")
@@ -2639,7 +2659,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "You have your pop-up blocker enabled. Please click the Ok button to complete your action. Please disable your pop-up blocker in the future."
      * .
-     * 
+     *
      * @return translated
      *         "You have your pop-up blocker enabled. Please click the Ok button to complete your action. Please disable your pop-up blocker in the future."
      */
@@ -2649,7 +2669,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Preferences".
-     * 
+     *
      * @return translated "Preferences"
      */
     @DefaultMessage("Preferences")
@@ -2658,7 +2678,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Preview".
-     * 
+     *
      * @return translated "Preview"
      */
     @DefaultMessage("Preview")
@@ -2667,7 +2687,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Progress".
-     * 
+     *
      * @return translated "Progress"
      */
     @DefaultMessage("Progress")
@@ -2676,7 +2696,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "&copy;2012 iPlant Collaborative".
-     * 
+     *
      * @return translated "&copy;2012 iPlant Collaborative"
      */
     @DefaultMessage("&copy;2012 iPlant Collaborative")
@@ -2685,7 +2705,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Boolean".
-     * 
+     *
      * @return translated "Boolean"
      */
     @DefaultMessage("Boolean")
@@ -2694,7 +2714,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Environment Variable".
-     * 
+     *
      * @return translated "Environment Variable"
      */
     @DefaultMessage("Environment Variable")
@@ -2703,7 +2723,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Input".
-     * 
+     *
      * @return translated "Input"
      */
     @DefaultMessage("Input")
@@ -2712,7 +2732,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Number".
-     * 
+     *
      * @return translated "Number"
      */
     @DefaultMessage("Number")
@@ -2721,7 +2741,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Output".
-     * 
+     *
      * @return translated "Output"
      */
     @DefaultMessage("Output")
@@ -2730,7 +2750,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "String".
-     * 
+     *
      * @return translated "String"
      */
     @DefaultMessage("String")
@@ -2739,7 +2759,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Public Submission Form".
-     * 
+     *
      * @return translated "Public Submission Form"
      */
     @DefaultMessage("Public Submission Form")
@@ -2748,7 +2768,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Your workflow has been successfully published into your workspace.".
-     * 
+     *
      * @return translated "Your workflow has been successfully published into your workspace."
      */
     @DefaultMessage("Your workflow has been successfully published into your workspace.")
@@ -2757,7 +2777,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Published on".
-     * 
+     *
      * @return translated "Published on"
      */
     @DefaultMessage("Published on")
@@ -2766,7 +2786,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Please attach any helpful links or references for this app:".
-     * 
+     *
      * @return translated "Please attach any helpful links or references for this app:"
      */
     @DefaultMessage("Please attach any helpful links or references for this app:")
@@ -2775,7 +2795,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click Add to attach an item.".
-     * 
+     *
      * @return translated "Click Add to attach an item."
      */
     @DefaultMessage("Click Add to attach an item.")
@@ -2784,7 +2804,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "For example, you may want to include a link to a paper which referenced your app.".
-     * 
+     *
      * @return translated
      *         "For example, you may want to include a link to a paper which referenced your app."
      */
@@ -2794,7 +2814,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Suggest categories for your app:".
-     * 
+     *
      * @return translated "Suggest categories for your app:"
      */
     @DefaultMessage("Suggest categories for your app:")
@@ -2803,7 +2823,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click Browse to explore categories.".
-     * 
+     *
      * @return translated "Click Browse to explore categories."
      */
     @DefaultMessage("Click Browse to explore categories.")
@@ -2814,7 +2834,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Select the possible categories under which your app may be displayed in the apps list within the Apps window."
      * .
-     * 
+     *
      * @return translated
      *         "Select the possible categories under which your app may be displayed in the apps list within the Apps window."
      */
@@ -2824,7 +2844,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Briefly describe your app:".
-     * 
+     *
      * @return translated "Briefly describe your app:"
      */
     @DefaultMessage("Briefly describe your app:")
@@ -2833,7 +2853,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click app description below to edit.".
-     * 
+     *
      * @return translated "Click app description below to edit."
      */
     @DefaultMessage("Click app description below to edit.")
@@ -2842,7 +2862,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "What is the name of your app?".
-     * 
+     *
      * @return translated "What is the name of your app?"
      */
     @DefaultMessage("What is the name of your app?")
@@ -2851,7 +2871,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click app name below to edit.".
-     * 
+     *
      * @return translated "Click app name below to edit."
      */
     @DefaultMessage("Click app name below to edit.")
@@ -2860,7 +2880,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Please complete required fields to submit.".
-     * 
+     *
      * @return translated "Please complete required fields to submit."
      */
     @DefaultMessage("Please complete required fields to submit.")
@@ -2869,7 +2889,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Quick Tips".
-     * 
+     *
      * @return translated "Quick Tips"
      */
     @DefaultMessage("Quick Tips")
@@ -2878,7 +2898,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Rating".
-     * 
+     *
      * @return translated "Rating"
      */
     @DefaultMessage("Rating")
@@ -2887,7 +2907,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Your app {0}".
-     * 
+     *
      * @return translated "Your app {0}"
      */
     @DefaultMessage("Your app {0}")
@@ -2896,7 +2916,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Your Discovery Environment app {0} has received a rating by a user.".
-     * 
+     *
      * @return translated "Your Discovery Environment app {0} has received a rating by a user."
      */
     @DefaultMessage("Your Discovery Environment app {0} has received a rating by a user.")
@@ -2905,7 +2925,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "out of 5".
-     * 
+     *
      * @return translated "out of 5"
      */
     @DefaultMessage("out of 5")
@@ -2914,7 +2934,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Raw".
-     * 
+     *
      * @return translated "Raw"
      */
     @DefaultMessage("Raw")
@@ -2923,7 +2943,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "read".
-     * 
+     *
      * @return translated "read"
      */
     @DefaultMessage("read")
@@ -2932,7 +2952,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "read only".
-     * 
+     *
      * @return translated "read only"
      */
     @DefaultMessage("read only")
@@ -2941,7 +2961,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "read-write".
-     * 
+     *
      * @return translated "read-write"
      */
     @DefaultMessage("read-write")
@@ -2950,7 +2970,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Very useful".
-     * 
+     *
      * @return translated "Very useful"
      */
     @DefaultMessage("Very useful")
@@ -2959,7 +2979,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Delete this Reference Genome".
-     * 
+     *
      * @return translated "Delete this Reference Genome"
      */
     @DefaultMessage("Delete this Reference Genome")
@@ -2968,7 +2988,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Name".
-     * 
+     *
      * @return translated "Name"
      */
     @DefaultMessage("Name")
@@ -2977,7 +2997,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Path".
-     * 
+     *
      * @return translated "Path"
      */
     @DefaultMessage("Path")
@@ -2986,7 +3006,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Reference Genome(s)".
-     * 
+     *
      * @return translated "Reference Genome(s)"
      */
     @DefaultMessage("Reference Genome(s)")
@@ -2995,7 +3015,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Attach any relevant links or references for this app".
-     * 
+     *
      * @return translated "Attach any relevant links or references for this app"
      */
     @DefaultMessage("Attach any relevant links or references for this app")
@@ -3004,7 +3024,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Refresh".
-     * 
+     *
      * @return translated "Refresh"
      */
     @DefaultMessage("Refresh")
@@ -3013,7 +3033,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Remove from favorite apps.".
-     * 
+     *
      * @return translated "Remove from favorite apps."
      */
     @DefaultMessage("Remove from favorite apps.")
@@ -3022,7 +3042,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Remember last file path for Apps.".
-     * 
+     *
      * @return translated "Remember last file path for Apps."
      */
     @DefaultMessage("Remember last file path for Apps.")
@@ -3041,7 +3061,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * location.
      * </p>
      * ".
-     * 
+     *
      * @return translated "
      *         <p>
      *         This option allows the Data Manager to automatically navigate the file tree to the file
@@ -3060,7 +3080,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Remove".
-     * 
+     *
      * @return translated "Remove"
      */
     @DefaultMessage("Remove")
@@ -3068,14 +3088,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String remove();
 
     /**
-     * 
+     *
      * @return
      */
     String removeAccess();
 
     /**
      * Translated "Remove from favorites".
-     * 
+     *
      * @return translated "Remove from favorites"
      */
     @DefaultMessage("Remove from favorites")
@@ -3084,7 +3104,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Rename".
-     * 
+     *
      * @return translated "Rename"
      */
     @DefaultMessage("Rename")
@@ -3093,7 +3113,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "New Name".
-     * 
+     *
      * @return translated "New Name"
      */
     @DefaultMessage("New Name")
@@ -3104,7 +3124,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Your request for new tool deployment has been submitted. You will receive an email confirmation."
      * .
-     * 
+     *
      * @return translated
      *         "Your request for new tool deployment has been submitted. You will receive an email confirmation."
      */
@@ -3114,7 +3134,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Request New Tool Installation".
-     * 
+     *
      * @return translated "Request New Tool Installation"
      */
     @DefaultMessage("Request New Tool Installation")
@@ -3123,7 +3143,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Request Tool".
-     * 
+     *
      * @return translated "Request Tool"
      */
     @DefaultMessage("Request Tool")
@@ -3132,7 +3152,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Reset".
-     * 
+     *
      * @return translated "Reset"
      */
     @DefaultMessage("Reset")
@@ -3141,7 +3161,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Restore".
-     * 
+     *
      * @return translated "Restore"
      */
     @DefaultMessage("Restore")
@@ -3150,7 +3170,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Restore App".
-     * 
+     *
      * @return translated "Restore App"
      */
     @DefaultMessage("Restore App")
@@ -3161,7 +3181,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "\"{0}\" cannot be restored automatically since it is orphaned. Please drag and drop it into appropriate category."
      * .
-     * 
+     *
      * @return translated
      *         "\"{0}\" cannot be restored automatically since it is orphaned. Please drag and drop it into appropriate category."
      */
@@ -3171,7 +3191,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "App Restore Failed".
-     * 
+     *
      * @return translated "App Restore Failed"
      */
     @DefaultMessage("App Restore Failed")
@@ -3180,7 +3200,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "\"{0}\" is restored into following categorie(s): \"{1}\"".
-     * 
+     *
      * @return translated "\"{0}\" is restored into following categorie(s): \"{1}\""
      */
     @DefaultMessage("\"{0}\" is restored into following categorie(s): \"{1}\"")
@@ -3189,7 +3209,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "App Restored".
-     * 
+     *
      * @return translated "App Restored"
      */
     @DefaultMessage("App Restored")
@@ -3198,7 +3218,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Restore Defaults".
-     * 
+     *
      * @return translated "Restore Defaults"
      */
     @DefaultMessage("Restore Defaults")
@@ -3207,7 +3227,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Selected files and folders are restored to their original location.".
-     * 
+     *
      * @return translated "Selected files and folders are restored to their original location."
      */
     @DefaultMessage("Selected files and folders are restored to their original location.")
@@ -3216,7 +3236,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Discovery Environment".
-     * 
+     *
      * @return translated "Discovery Environment"
      */
     @DefaultMessage("Discovery Environment")
@@ -3225,7 +3245,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click to use this app.".
-     * 
+     *
      * @return translated "Click to use this app."
      */
     @DefaultMessage("Click to use this app.")
@@ -3234,7 +3254,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Save".
-     * 
+     *
      * @return translated "Save"
      */
     @DefaultMessage("Save")
@@ -3243,7 +3263,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "You have unsaved changes. Save now?"
-     * 
+     *
      * @return translated "You have unsaved changes. Save now?"
      */
     @DefaultMessage("You have unsaved changes. Save now?")
@@ -3252,7 +3272,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Save As".
-     * 
+     *
      * @return translated "Save As"
      */
     @DefaultMessage("Save As")
@@ -3261,7 +3281,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "<b> Save session </b>".
-     * 
+     *
      * @return translated "<b> Save session </b>"
      */
     @DefaultMessage("<b> Save session </b>")
@@ -3275,7 +3295,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * you left it when you last logged out.
      * </p>
      * ".
-     * 
+     *
      * @return translated "
      *         <p>
      *         Enabling the Save session option will restore your Discovery Environment desktop to
@@ -3289,7 +3309,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Setting saved.".
-     * 
+     *
      * @return translated "Setting saved."
      */
     @DefaultMessage("Setting saved.")
@@ -3298,7 +3318,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Saving...".
-     * 
+     *
      * @return translated "Saving..."
      */
     @DefaultMessage("Saving...")
@@ -3307,7 +3327,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Saving Session".
-     * 
+     *
      * @return translated "Saving Session"
      */
     @DefaultMessage("Saving Session")
@@ -3316,7 +3336,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Saving current session, please wait...".
-     * 
+     *
      * @return translated "Saving current session, please wait..."
      */
     @DefaultMessage("Saving current session, please wait...")
@@ -3325,7 +3345,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Search".
-     * 
+     *
      * @return translated "Search"
      */
     @DefaultMessage("Search")
@@ -3334,7 +3354,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Search results for \"{0}\"".
-     * 
+     *
      * @return translated "Search results for \"{0}\""
      */
     @DefaultMessage("Search results for \"{0}\"")
@@ -3343,7 +3363,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Search Apps by Name or Description".
-     * 
+     *
      * @return translated "Search Apps by Name or Description"
      */
     @DefaultMessage("Search Apps by Name or Description")
@@ -3352,7 +3372,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Search for users".
-     * 
+     *
      * @return translated "Search for users"
      */
     @DefaultMessage("Search for users")
@@ -3361,7 +3381,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "enter 3 or more characters".
-     * 
+     *
      * @return translated "enter 3 or more characters"
      */
     @DefaultMessage("enter 3 or more characters")
@@ -3370,7 +3390,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Search History".
-     * 
+     *
      * @return translated "Search History"
      */
     @DefaultMessage("Search History")
@@ -3379,7 +3399,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "This field requires 3 or more characters!".
-     * 
+     *
      * @return translated "This field requires 3 or more characters!"
      */
     @DefaultMessage("This field requires 3 or more characters!")
@@ -3388,14 +3408,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * search threshold msg
-     * 
+     *
      * @return
      */
     String searchThresholdMsg(int limit);
 
     /**
      * Translated "Searching...".
-     * 
+     *
      * @return translated "Searching..."
      */
     @DefaultMessage("Searching...")
@@ -3404,7 +3424,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select a file".
-     * 
+     *
      * @return translated "Select a file"
      */
     @DefaultMessage("Select a file")
@@ -3413,7 +3433,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select a folder".
-     * 
+     *
      * @return translated "Select a folder"
      */
     @DefaultMessage("Select a folder")
@@ -3422,7 +3442,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select output folder (a sub-folder will created by default when {0} is selected)".
-     * 
+     *
      * @return translated
      *         "Select output folder (a sub-folder will created by default when {0} is selected)"
      */
@@ -3432,7 +3452,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click to view output(s).".
-     * 
+     *
      * @return translated "Click to view output(s)."
      */
     @DefaultMessage("Click to view output(s).")
@@ -3441,7 +3461,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select & Order Apps".
-     * 
+     *
      * @return translated "Select & Order Apps"
      */
     @DefaultMessage("Select & Order Apps")
@@ -3450,7 +3470,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select Collaborator(s)".
-     * 
+     *
      * @return translated "Select Collaborator(s)"
      */
     @DefaultMessage("Select Collaborator(s)")
@@ -3459,7 +3479,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Selected file(s) / folder(s)".
-     * 
+     *
      * @return translated "Selected file(s) / folder(s)"
      */
     @DefaultMessage("Selected file(s) / folder(s)")
@@ -3468,7 +3488,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select a folder to view its contents.".
-     * 
+     *
      * @return translated "Select a folder to view its contents."
      */
     @DefaultMessage("Select a folder to view its contents.")
@@ -3477,7 +3497,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select Input(s)".
-     * 
+     *
      * @return translated "Select Input(s)"
      */
     @DefaultMessage("Select Input(s)")
@@ -3486,7 +3506,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "You must add 2 or more apps for this workflow.".
-     * 
+     *
      * @return translated "You must add 2 or more apps for this workflow."
      */
     @DefaultMessage("You must add 2 or more apps for this workflow.")
@@ -3495,7 +3515,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Add apps to your workflow".
-     * 
+     *
      * @return translated "Add apps to your workflow"
      */
     @DefaultMessage("Add apps to your workflow")
@@ -3504,7 +3524,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Selected file".
-     * 
+     *
      * @return translated "Selected file"
      */
     @DefaultMessage("Selected file")
@@ -3513,7 +3533,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Selected folder".
-     * 
+     *
      * @return translated "Selected folder"
      */
     @DefaultMessage("Selected folder")
@@ -3522,7 +3542,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Selected resource".
-     * 
+     *
      * @return translated "Selected resource"
      */
     @DefaultMessage("Selected resource")
@@ -3531,7 +3551,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Cannot share file(s) / folder(s) with yourself.".
-     * 
+     *
      * @return translated "Cannot share file(s) / folder(s) with yourself."
      */
     @DefaultMessage("Cannot share file(s) / folder(s) with yourself.")
@@ -3540,7 +3560,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Settings".
-     * 
+     *
      * @return translated "Settings"
      */
     @DefaultMessage("Settings")
@@ -3549,7 +3569,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Share".
-     * 
+     *
      * @return translated "Share"
      */
     @DefaultMessage("Share")
@@ -3559,7 +3579,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     /**
      * Translated
      * "Your request has been submitted. You will receive notifications when the request is complete.".
-     * 
+     *
      * @return translated
      *         "Your request has been submitted. You will receive notifications when the request is complete."
      */
@@ -3569,7 +3589,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Show".
-     * 
+     *
      * @return translated "Show"
      */
     @DefaultMessage("Show")
@@ -3578,7 +3598,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Simple Download".
-     * 
+     *
      * @return translated "Simple Download"
      */
     @DefaultMessage("Simple Download")
@@ -3587,7 +3607,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Switch to Simple Download Links".
-     * 
+     *
      * @return translated "Switch to Simple Download Links"
      */
     @DefaultMessage("Switch to Simple Download Links")
@@ -3596,7 +3616,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Click on the link(s) below to begin a download.".
-     * 
+     *
      * @return translated "Click on the link(s) below to begin a download."
      */
     @DefaultMessage("Click on the link(s) below to begin a download.")
@@ -3605,7 +3625,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Switch to Simple Upload Form".
-     * 
+     *
      * @return translated "Switch to Simple Upload Form"
      */
     @DefaultMessage("Switch to Simple Upload Form")
@@ -3614,7 +3634,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Simple Upload from Desktop".
-     * 
+     *
      * @return translated "Simple Upload from Desktop"
      */
     @DefaultMessage("Simple Upload from Desktop")
@@ -3623,7 +3643,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Size".
-     * 
+     *
      * @return translated "Size"
      */
     @DefaultMessage("Size")
@@ -3632,7 +3652,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Source / binary".
-     * 
+     *
      * @return translated "Source / binary"
      */
     @DefaultMessage("Source / binary")
@@ -3641,7 +3661,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Link to Source / binary".
-     * 
+     *
      * @return translated "Link to Source / binary"
      */
     @DefaultMessage("Link to Source / binary")
@@ -3650,7 +3670,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Start".
-     * 
+     *
      * @return translated "Start"
      */
     @DefaultMessage("Start")
@@ -3659,7 +3679,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Start Date".
-     * 
+     *
      * @return translated "Start Date"
      */
     @DefaultMessage("Start Date")
@@ -3668,7 +3688,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Status".
-     * 
+     *
      * @return translated "Status"
      */
     @DefaultMessage("Status")
@@ -3677,7 +3697,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Step".
-     * 
+     *
      * @return translated "Step"
      */
     @DefaultMessage("Step")
@@ -3686,7 +3706,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Step {0}".
-     * 
+     *
      * @return translated "Step {0}"
      */
     @DefaultMessage("Step {0}")
@@ -3695,7 +3715,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Stop".
-     * 
+     *
      * @return translated "Stop"
      */
     @DefaultMessage("Stop")
@@ -3704,7 +3724,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Submit".
-     * 
+     *
      * @return translated "Submit"
      */
     @DefaultMessage("Submit")
@@ -3713,7 +3733,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Submit your app for public use.".
-     * 
+     *
      * @return translated "Submit your app for public use."
      */
     @DefaultMessage("Submit your app for public use.")
@@ -3722,7 +3742,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Submitting your request, please wait...".
-     * 
+     *
      * @return translated "Submitting your request, please wait..."
      */
     @DefaultMessage("Submitting your request, please wait...")
@@ -3731,7 +3751,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Submitting...".
-     * 
+     *
      * @return translated "Submitting..."
      */
     @DefaultMessage("Submitting...")
@@ -3740,7 +3760,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Success".
-     * 
+     *
      * @return translated "Success"
      */
     @DefaultMessage("Success")
@@ -3749,7 +3769,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Switch View".
-     * 
+     *
      * @return translated "Switch View"
      */
     @DefaultMessage("Switch View")
@@ -3758,7 +3778,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * The system messages menu item text
-     * 
+     *
      * @return the text
      */
     @DefaultMessage("System Messages")
@@ -3767,7 +3787,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Disable this app temporarily".
-     * 
+     *
      * @return translated "Disable this app temporarily"
      */
     @DefaultMessage("Disable this app temporarily")
@@ -3776,7 +3796,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Please include link to publication, manual, etc.".
-     * 
+     *
      * @return translated "Please include link to publication, manual, etc."
      */
     @DefaultMessage("Please include link to publication, manual, etc.")
@@ -3785,7 +3805,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Describe appropriate attribution for this tool:".
-     * 
+     *
      * @return translated "Describe appropriate attribution for this tool:"
      */
     @DefaultMessage("Describe appropriate attribution for this tool:")
@@ -3794,7 +3814,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Brief description of the tool".
-     * 
+     *
      * @return translated "Brief description of the tool"
      */
     @DefaultMessage("Brief description of the tool")
@@ -3803,7 +3823,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Tool name".
-     * 
+     *
      * @return translated "Tool name"
      */
     @DefaultMessage("Tool name")
@@ -3812,7 +3832,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Name of tool/script".
-     * 
+     *
      * @return translated "Name of tool/script"
      */
     @DefaultMessage("Name of tool/script")
@@ -3821,7 +3841,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Tool Request Status".
-     * 
+     *
      * @return translated "Tool Request Status"
      */
     @DefaultMessage("Tool Request Status")
@@ -3830,7 +3850,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Tool Information".
-     * 
+     *
      * @return translated "Tool Information"
      */
     @DefaultMessage("Tool Information")
@@ -3839,7 +3859,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Tool Tip Text".
-     * 
+     *
      * @return translated "Tool Tip Text"
      */
     @DefaultMessage("Tool Tip Text")
@@ -3848,7 +3868,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Children".
-     * 
+     *
      * @return translated "Children"
      */
     @DefaultMessage("Children")
@@ -3857,7 +3877,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "None".
-     * 
+     *
      * @return translated "None"
      */
     @DefaultMessage("None")
@@ -3866,7 +3886,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Parent".
-     * 
+     *
      * @return translated "Parent"
      */
     @DefaultMessage("Parent")
@@ -3875,7 +3895,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Both".
-     * 
+     *
      * @return translated "Both"
      */
     @DefaultMessage("Both")
@@ -3884,7 +3904,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Filter by name. Clear to review selection.".
-     * 
+     *
      * @return translated "Filter by name. Clear to review selection."
      */
     @DefaultMessage("Filter by name. Clear to review selection.")
@@ -3893,7 +3913,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Tree URL".
-     * 
+     *
      * @return translated "Tree URL"
      */
     @DefaultMessage("Tree URL")
@@ -3902,7 +3922,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Delete a previous rating".
-     * 
+     *
      * @return translated "Delete a previous rating"
      */
     @DefaultMessage("Delete a previous rating")
@@ -3911,7 +3931,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Unshare".
-     * 
+     *
      * @return translated "Unshare"
      */
     @DefaultMessage("Unshare")
@@ -3920,7 +3940,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Move Up".
-     * 
+     *
      * @return translated "Move Up"
      */
     @DefaultMessage("Move Up")
@@ -3929,7 +3949,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Reference Genome updated.".
-     * 
+     *
      * @return translated "Reference Genome updated."
      */
     @DefaultMessage("Reference Genome updated.")
@@ -3938,7 +3958,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Select test data file to upload".
-     * 
+     *
      * @return translated "Select test data file to upload"
      */
     @DefaultMessage("Select test data file to upload")
@@ -3947,7 +3967,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Upload".
-     * 
+     *
      * @return translated "Upload"
      */
     @DefaultMessage("Upload")
@@ -3956,7 +3976,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Uploaded".
-     * 
+     *
      * @return translated "Uploaded"
      */
     @DefaultMessage("Uploaded")
@@ -3965,7 +3985,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Uploading to {0}.".
-     * 
+     *
      * @return translated "Uploading to {0}."
      */
     @DefaultMessage("Uploading to {0}.")
@@ -3974,7 +3994,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Import from URL".
-     * 
+     *
      * @return translated "Import from URL"
      */
     @DefaultMessage("Import from URL")
@@ -3983,7 +4003,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Enter URLs below (HTTP(S) or FTP only):".
-     * 
+     *
      * @return translated "Enter URLs below (HTTP(S) or FTP only):"
      */
     @DefaultMessage("Enter URLs below (HTTP(S) or FTP only):")
@@ -3992,7 +4012,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "User-Agent:".
-     * 
+     *
      * @return translated "User-Agent:"
      */
     @DefaultMessage("User-Agent:")
@@ -4001,7 +4021,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "User Name".
-     * 
+     *
      * @return translated "User Name"
      */
     @DefaultMessage("User Name")
@@ -4010,7 +4030,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "User preference saved successfully.".
-     * 
+     *
      * @return translated "User preference saved successfully."
      */
     @DefaultMessage("User preference saved successfully.")
@@ -4019,7 +4039,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "User Provided".
-     * 
+     *
      * @return translated "User Provided"
      */
     @DefaultMessage("User Provided")
@@ -4028,7 +4048,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Value(s)".
-     * 
+     *
      * @return translated "Value(s)"
      */
     @DefaultMessage("Value(s)")
@@ -4037,7 +4057,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Visibility Varies".
-     * 
+     *
      * @return translated "Visibility Varies"
      */
     @DefaultMessage("Visibility Varies")
@@ -4046,7 +4066,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "varies".
-     * 
+     *
      * @return translated "varies"
      */
     @DefaultMessage("varies")
@@ -4055,7 +4075,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Version".
-     * 
+     *
      * @return translated "Version"
      */
     @DefaultMessage("Version")
@@ -4064,7 +4084,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "via Discovery Environment".
-     * 
+     *
      * @return translated "via Discovery Environment"
      */
     @DefaultMessage("via Discovery Environment")
@@ -4073,7 +4093,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "via Public Link".
-     * 
+     *
      * @return translated "via Public Link"
      */
     @DefaultMessage("via Public Link")
@@ -4082,7 +4102,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "View".
-     * 
+     *
      * @return translated "View"
      */
     @DefaultMessage("View")
@@ -4091,7 +4111,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "View Integrated Tools".
-     * 
+     *
      * @return translated "View Integrated Tools"
      */
     @DefaultMessage("View Integrated Tools")
@@ -4100,7 +4120,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "View Parameters".
-     * 
+     *
      * @return translated "View Parameters"
      */
     @DefaultMessage("View Parameters")
@@ -4109,7 +4129,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Viewing parameters for {0}".
-     * 
+     *
      * @return translated "Viewing parameters for {0}"
      */
     @DefaultMessage("Viewing parameters for {0}")
@@ -4118,7 +4138,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "View Raw".
-     * 
+     *
      * @return translated "View Raw"
      */
     @DefaultMessage("View Raw")
@@ -4127,7 +4147,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "View Results".
-     * 
+     *
      * @return translated "View Results"
      */
     @DefaultMessage("View Results")
@@ -4136,7 +4156,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "View Tree".
-     * 
+     *
      * @return translated "View Tree"
      */
     @DefaultMessage("View Tree")
@@ -4145,7 +4165,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Warning".
-     * 
+     *
      * @return translated "Warning"
      */
     @DefaultMessage("Warning")
@@ -4154,7 +4174,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Welcome".
-     * 
+     *
      * @return translated "Welcome"
      */
     @DefaultMessage("Welcome")
@@ -4163,7 +4183,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Who has access".
-     * 
+     *
      * @return translated "Who has access"
      */
     @DefaultMessage("Who has access")
@@ -4174,7 +4194,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * Translated
      * "Enter the URL for the iPlant wiki documentation, created using <a href=\"{0}\" target=\"_blank\">these instructions</a>"
      * .
-     * 
+     *
      * @return translated
      *         "Enter the URL for the iPlant wiki documentation, created using <a href=\"{0}\" target=\"_blank\">these instructions</a>"
      */
@@ -4184,7 +4204,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Workflow".
-     * 
+     *
      * @return translated "Workflow"
      */
     @DefaultMessage("Workflow")
@@ -4193,7 +4213,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Workflow Information".
-     * 
+     *
      * @return translated "Workflow Information"
      */
     @DefaultMessage("Workflow Information")
@@ -4202,7 +4222,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "Wrap Text".
-     * 
+     *
      * @return translated "Wrap Text"
      */
     @DefaultMessage("Wrap Text")
@@ -4211,7 +4231,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
 
     /**
      * Translated "write".
-     * 
+     *
      * @return translated "write"
      */
     @DefaultMessage("write")
