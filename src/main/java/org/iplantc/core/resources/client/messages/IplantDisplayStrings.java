@@ -3576,6 +3576,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("share")
     String share();
 
+
+    /**
+     * Translated "Share promt".
+     *
+     * @return translated "Share promt"
+     */
+    @DefaultMessage("Click Choose Collaborators or search for a user to begin sharing.")
+    @Key("sharePrompt")
+    String sharePrompt();
+
+
     /**
      * Translated
      * "Your request has been submitted. You will receive notifications when the request is complete.".
