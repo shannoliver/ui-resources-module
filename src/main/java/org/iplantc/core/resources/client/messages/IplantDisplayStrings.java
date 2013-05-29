@@ -1238,8 +1238,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String expandAll();
 
     /**
+     * A message telling what day something will expire.
+     * 
+     * @param expirationDate the date of expiration formatted for the current locale
+     */
+    @DefaultMessage("This message will expire on {0}.")
+    @Key("expirationMessage")
+    String expirationMessage(String expirationDate);
+
+    /**
      * Translated "Explain".
-     *
+     * 
      * @return translated "Explain"
      */
     @DefaultMessage("Explain")
@@ -3806,8 +3815,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String tempDisable();
 
     /**
+     * the name of the current day
+     */
+    @DefaultMessage("Today")
+    @Key("today")
+    String today();
+
+    /**
      * Translated "Please include link to publication, manual, etc.".
-     *
+     * 
      * @return translated "Please include link to publication, manual, etc."
      */
     @DefaultMessage("Please include link to publication, manual, etc.")
