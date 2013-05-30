@@ -3877,7 +3877,18 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("toolTipTextLabel")
     String toolTipTextLabel();
 
+
     /**
+     * Translated "Tool version".
+     *
+     * @return translated "Tool version"
+     */
+    @DefaultMessage("Version")
+    @Key("toolVersion")
+    String toolVersion();
+
+    /**
+     *
      * Translated "Children".
      *
      * @return translated "Children"
