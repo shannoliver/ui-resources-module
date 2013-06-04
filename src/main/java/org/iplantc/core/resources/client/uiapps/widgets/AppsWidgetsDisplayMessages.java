@@ -15,4 +15,18 @@ public interface AppsWidgetsDisplayMessages {
     String selectOutputFolder();
 
     String analysisName();
+
+    String addGroupToolTip();
+
+    String addArgumentToolTip();
+
+    String checkCascadeLabel();
+
+    String checkCascadeLabelToolTip();
+
+    String cascadeOptionsComboToolTip();
+
+    String forceSingleSelectLabel();
+
+    String forceSingleSelectToolTip();
 }

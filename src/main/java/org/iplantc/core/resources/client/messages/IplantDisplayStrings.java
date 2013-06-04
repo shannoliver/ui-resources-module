@@ -1238,8 +1238,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String expandAll();
 
     /**
+     * A message telling what day something will expire.
+     * 
+     * @param expirationDate the date of expiration formatted for the current locale
+     */
+    @DefaultMessage("This message will expire on {0}.")
+    @Key("expirationMessage")
+    String expirationMessage(String expirationDate);
+
+    /**
      * Translated "Explain".
-     *
+     * 
      * @return translated "Explain"
      */
     @DefaultMessage("Explain")
@@ -3576,6 +3585,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("share")
     String share();
 
+
+    /**
+     * Translated "Share promt".
+     *
+     * @return translated "Share promt"
+     */
+    @DefaultMessage("Click Choose Collaborators or search for a user to begin sharing.")
+    @Key("sharePrompt")
+    String sharePrompt();
+
+
     /**
      * Translated
      * "Your request has been submitted. You will receive notifications when the request is complete.".
@@ -3795,8 +3815,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String tempDisable();
 
     /**
+     * the name of the current day
+     */
+    @DefaultMessage("Today")
+    @Key("today")
+    String today();
+
+    /**
      * Translated "Please include link to publication, manual, etc.".
-     *
+     * 
      * @return translated "Please include link to publication, manual, etc."
      */
     @DefaultMessage("Please include link to publication, manual, etc.")
@@ -3866,7 +3893,18 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("toolTipTextLabel")
     String toolTipTextLabel();
 
+
     /**
+     * Translated "Tool version".
+     *
+     * @return translated "Tool version"
+     */
+    @DefaultMessage("Version")
+    @Key("toolVersion")
+    String toolVersion();
+
+    /**
+     *
      * Translated "Children".
      *
      * @return translated "Children"
