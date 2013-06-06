@@ -2025,8 +2025,22 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String messageArrivalAnnouncement();
 
     /**
+     * The query asking the user if he really wants to dismiss the currently selected message.
+     */
+    @DefaultMessage("Do you really want to dismiss this message?")
+    @Key("messageDismissQuery")
+    String messageDismissQuery();
+
+    /**
+     * A message letting the user know a message is currently being dismissed.
+     */
+    @DefaultMessage("dismissing message")
+    @Key("messageDismissing")
+    String messageDismissing();
+
+    /**
      * Translated "Messages".
-     *
+     * 
      * @return translated "Messages"
      */
     @DefaultMessage("Messages")
