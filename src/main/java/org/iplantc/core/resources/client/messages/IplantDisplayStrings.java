@@ -1139,6 +1139,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Drag and drop Apps here to add them to the Workflow.")
     @Key("dragDropAppsToCreator")
     String dragDropAppsToCreator();
+    
+    /**
+     * Translate "Duplicate shortcut key"
+     * 
+     * @return translated "Duplicate shortcut key"
+     */
+    @DefaultMessage("This keyboard shortcut is already in use. Please choose another shortcut.")
+    @Key("duplicateShortCutKey")
+    String duplicateShortCutKey(String key);
 
     /**
      * Translated "Edit".
