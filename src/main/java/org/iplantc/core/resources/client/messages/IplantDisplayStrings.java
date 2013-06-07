@@ -2496,7 +2496,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      *
      * @return the text
      */
-    @DefaultMessage("Read now.")
+    @DefaultMessage("Read it.")
     @Key("openMessage")
     String openMessage();
 
