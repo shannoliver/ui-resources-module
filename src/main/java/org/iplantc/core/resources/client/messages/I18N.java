@@ -18,4 +18,5 @@ public class I18N {
     public static final IplantValidationMessages RULES = GWT.create(IplantValidationMessages.class);
     public static final IplantContextualHelpStrings HELP = GWT.create(IplantContextualHelpStrings.class);
     public static final IplantValidationConstants V_CONSTANTS = GWT.create(IplantValidationConstants.class);
+    public static final IplantNewUserTourStrings TOUR = GWT.create(IplantNewUserTourStrings.class);
 }
