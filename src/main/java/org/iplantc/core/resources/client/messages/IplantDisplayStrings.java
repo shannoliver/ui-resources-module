@@ -637,6 +637,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("collaboratorSearchTruncated")
     String collaboratorSearchTruncated();
 
+    /** Translated "Cannot add yourself as collaborator.".
+    *
+    * @return translated "Cannot add yourself as collaborator!"
+    */
+   @DefaultMessage("Cannot add yourself as collaborator.")
+   @Key("collaboratorSelfAdd")
+    String collaboratorSelfAdd();
+    
+    
     /**
      * Translated "Collaborators".
      *
