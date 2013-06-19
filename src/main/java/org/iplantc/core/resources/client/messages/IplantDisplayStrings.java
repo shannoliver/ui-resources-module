@@ -2091,6 +2091,18 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("More Actions")
     @Key("moreActions")
     String moreActions();
+    
+    
+    /**
+     * Translated "Move".
+     *
+     * @return translated "Move"
+     */
+    @DefaultMessage("Move")
+    @Key("move")
+    String move();
+    
+    
 
     /**
      * Translated "Move down".
