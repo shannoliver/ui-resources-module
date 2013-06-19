@@ -1341,9 +1341,9 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     /**
      * Translated "Maximum total file upload size is 1.9GB.".
      *
-     * @return translated "Maximum total file upload size is 1.9GB."
+     * @return translated Maximum size of each file is 1.9GB when using simple upload."
      */
-    @DefaultMessage("Maximum total file upload size is 1.9GB.")
+    @DefaultMessage("Maximum size of each file is 1.9GB when using simple upload.")
     @Key("fileUploadMaxSizeWarning")
     String fileUploadMaxSizeWarning();
 
