@@ -13,4 +13,7 @@ public interface IplantValidationConstants extends Constants {
     String restrictedCmdLineArgChars();
 
     String restrictedCmdLineChars();
+
+    int maxToolNameLength();
+
 }
