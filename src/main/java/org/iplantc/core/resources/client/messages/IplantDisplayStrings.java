@@ -637,6 +637,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("collaboratorSearchTruncated")
     String collaboratorSearchTruncated();
 
+    /** Translated "Cannot add yourself as collaborator.".
+    *
+    * @return translated "Cannot add yourself as collaborator!"
+    */
+   @DefaultMessage("Cannot add yourself as collaborator.")
+   @Key("collaboratorSelfAdd")
+    String collaboratorSelfAdd();
+    
+    
     /**
      * Translated "Collaborators".
      *
@@ -1332,9 +1341,9 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     /**
      * Translated "Maximum total file upload size is 1.9GB.".
      *
-     * @return translated "Maximum total file upload size is 1.9GB."
+     * @return translated Maximum size of each file is 1.9GB when using simple upload."
      */
-    @DefaultMessage("Maximum total file upload size is 1.9GB.")
+    @DefaultMessage("Maximum size of each file is 1.9GB when using simple upload.")
     @Key("fileUploadMaxSizeWarning")
     String fileUploadMaxSizeWarning();
 
@@ -2082,6 +2091,18 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("More Actions")
     @Key("moreActions")
     String moreActions();
+    
+    
+    /**
+     * Translated "Move".
+     *
+     * @return translated "Move"
+     */
+    @DefaultMessage("Move")
+    @Key("move")
+    String move();
+    
+    
 
     /**
      * Translated "Move down".

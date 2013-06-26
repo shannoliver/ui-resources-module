@@ -215,6 +215,16 @@ public interface IplantValidationMessages extends Messages {
      * @return a String representing the text.
      */
     String nonMatchingStringMsg(String value, String pattern);
+
+    /**
+     * Validation failure message for checking when a length of a field value is within certain
+     * bounds.
+     * 
+     * @param field the field whose value is being checked
+     * @param lowerBound the lower bound of the length
+     * @param upperBound the upper bound of the length
+     */
+    String lengthViolationMsg(String field, int lowerBound, int upperBound);
     
    /** Message provided when a user enters a field that is less than a dependent field.
     * 
