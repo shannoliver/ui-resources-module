@@ -179,6 +179,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      *
      * @return translated "Analysis Name"
      */
+    @Override
     @DefaultMessage("Analysis Name")
     @Key("analysisName")
     String analysisName();
@@ -3083,6 +3084,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Refresh")
     @Key("refresh")
     String refresh();
+
+    /**
+     * Translated "Relaunch".
+     * 
+     * @return translated "Relaunch"
+     */
+    @DefaultMessage("Relaunch")
+    @Key("relaunchAnalysis")
+    String relaunchAnalysis();
 
     /**
      * Translated "Remove from favorite apps.".
