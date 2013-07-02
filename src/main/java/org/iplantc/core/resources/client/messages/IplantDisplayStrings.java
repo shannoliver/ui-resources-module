@@ -3436,6 +3436,10 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Search Apps by Name or Description")
     @Key("searchApps")
     String searchApps();
+    
+    @DefaultMessage("Search by Name")
+    @Key("searchData")
+    String searchData();
 
     /**
      * Translated "Search for users".
