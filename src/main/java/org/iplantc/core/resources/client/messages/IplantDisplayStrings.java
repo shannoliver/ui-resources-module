@@ -1310,6 +1310,10 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("fileName")
     String fileName();
 
+    @Key("fileOpenMsg")
+    @DefaultMessage("Your file was opened in separate browser tab / window. You can close this window.")
+    String fileOpenMsg();
+    
     /**
      * Translated
      * "Only 8K of the selected file is displayed. For full view of data, please download file.".
