@@ -1685,6 +1685,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Integrator name")
     @Key("integratorName")
     String integratorName();
+    
+    /**
+     * Translated "Introduction".
+     *
+     * @return translated "Introduction"
+     */
+    @DefaultMessage("Introduction")
+    @Key("Introduction")
+    String introduction();
 
     /**
      * Translated
