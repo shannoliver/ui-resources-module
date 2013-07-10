@@ -1,5 +1,7 @@
 package org.iplantc.core.resources.client.messages;
 
+import java.util.List;
+
 import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationErrorMessages;
 
 /**
@@ -409,6 +411,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     String duplicateCheckFailed();
 
     /**
+     * A message indicating the user has requested to upload the same file more than once.
+     */
+    @DefaultMessage("Duplicate file to upload")
+    @Key("duplicateUpload")
+    String duplicateUpload();
+
+    /**
      * Error msg to show when empty trash fails
      * 
      * @return
@@ -522,11 +531,32 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
      * Translated "Upload of {0} failed.".
      * 
      * @return translated "Upload of {0} failed."
+     * 
+     * @deprecated use fileUploadsFailed(List) instead
      */
+    @Deprecated
     @DefaultMessage("Upload of {0} failed.")
     @Key("fileUploadFailed")
     String fileUploadFailed(String arg0);
 
+    /**
+     * A message indicating that a file failed to upload. This message should be used when the file
+     * that failed to upload is obvious from the context.
+     */
+    @DefaultMessage("upload failed")
+    @Key("fileUploadFailedAnon")
+    String fileUploadFailedAnon();
+
+    /**
+     * A message indicating that one or more files failed to upload.
+     * 
+     * @param files The list of files that couldn't be uploaded.
+     */
+    @DefaultMessage("The files {0,list} failed to upload.")
+    @AlternateMessage({"=1", "The file {0,list} failed to upload."})
+    @Key("fileUploadsFailed")
+    String fileUploadsFailed(@PluralCount List<String> files);
+    
     /**
      * Translated "The following file(s) are writable:<br />
      * {0}".
@@ -621,6 +651,13 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     @DefaultMessage("Import of {0} failed.")
     @Key("importFailed")
     String importFailed(String arg0);
+
+    /**
+     * A message presented to the user when an invalid tool request is made.
+     */
+    @DefaultMessage("Your tool request is invalid. Please fix the issue(s).")
+    @Key("invalidToolRequest")
+    String invalidToolRequest();
 
     /**
      * Translated

@@ -37,9 +37,11 @@
 /* This is the styling applied to error announcements */
 .panelError {
     animation: materialize 1s;
-	background: #DB6619;
-	border: 1px outset white;
+	background: white;
+	border: 1px outset #DB6619;
     box-shadow: 1mm 1mm 0.7mm rgba(0, 0, 0, 0.3);
+    color: #DB6619;
+    font-weight: bold;
     padding: 1mm;
 }
 

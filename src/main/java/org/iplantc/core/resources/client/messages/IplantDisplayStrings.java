@@ -179,6 +179,7 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      *
      * @return translated "Analysis Name"
      */
+    @Override
     @DefaultMessage("Analysis Name")
     @Key("analysisName")
     String analysisName();
@@ -1309,6 +1310,10 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("fileName")
     String fileName();
 
+    @Key("fileOpenMsg")
+    @DefaultMessage("Your file was opened in separate browser tab / window. You can close this window.")
+    String fileOpenMsg();
+    
     /**
      * Translated
      * "Only 8K of the selected file is displayed. For full view of data, please download file.".
@@ -1680,6 +1685,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Integrator name")
     @Key("integratorName")
     String integratorName();
+    
+    /**
+     * Translated "Introduction".
+     *
+     * @return translated "Introduction"
+     */
+    @DefaultMessage("Introduction")
+    @Key("Introduction")
+    String introduction();
 
     /**
      * Translated
@@ -3085,6 +3099,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String refresh();
 
     /**
+     * Translated "Relaunch".
+     * 
+     * @return translated "Relaunch"
+     */
+    @DefaultMessage("Relaunch")
+    @Key("relaunchAnalysis")
+    String relaunchAnalysis();
+
+    /**
      * Translated "Remove from favorite apps.".
      *
      * @return translated "Remove from favorite apps."
@@ -3422,6 +3445,10 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Search Apps by Name or Description")
     @Key("searchApps")
     String searchApps();
+    
+    @DefaultMessage("Search by Name")
+    @Key("searchData")
+    String searchData();
 
     /**
      * Translated "Search for users".
