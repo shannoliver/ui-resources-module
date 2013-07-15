@@ -4,4 +4,6 @@ public interface AppIntegrationErrorMessages {
 
     String publishFailureDefaultMessage();
 
+    String unableToSave();
+
 }
