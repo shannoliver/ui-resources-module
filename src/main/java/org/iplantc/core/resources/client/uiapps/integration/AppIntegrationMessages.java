@@ -19,4 +19,6 @@ public interface AppIntegrationMessages {
     SafeHtml argumentLabel();
 
     SafeHtml orderLabel();
+
+    String saveSuccessful();
 }
