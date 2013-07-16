@@ -16,7 +16,7 @@ import com.google.gwt.resources.client.ImageResource;
  * 
  */
 public interface IplantResources extends ClientBundle, AppResources, DiskResourceResources,
-        AppIntegrationPaletteImages, DEHeaderResources, DataLinkResources {
+        AppIntegrationPaletteImages, DEHeaderResources, DataLinkResources, DataCollapseResources {
 
     public static IplantResources RESOURCES = GWT.create(IplantResources.class);
 
@@ -589,6 +589,10 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Override
     @Source("tree_collapse.png")
     ImageResource treeCollapse();
+    
+    @Override
+    @Source("tree_collapse_hover.png")
+    ImageResource treeCollapseHover();
 
     @Override
     @Source("tree_expand.png")
@@ -631,4 +635,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
 
     @Source("uiapps/widgets/ArgumentListEditorCss.css")
     ArgumentListEditorCss argumentListEditorCss();
+    
+    @Source("DataCollapse.css")
+    DataCollapseStyle getDataCollapseStyle();
 }
