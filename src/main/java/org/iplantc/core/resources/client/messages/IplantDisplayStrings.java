@@ -2669,6 +2669,17 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     String permissionErrorTitle();
 
     /**
+     * 
+     * Tranlated "You must make a selection you own or have write permissions to."
+     * 
+     * @return translated "You must make a selection you own or have write permissions to."
+     */
+    @DefaultMessage("You must make a selection you own or have write permissions to.")
+    @Key("permissionSelectErrorMessage")
+    String permissionSelectErrorMessage();
+    
+    
+    /**
      * Translated "Permissions".
      *
      * @return translated "Permissions"
