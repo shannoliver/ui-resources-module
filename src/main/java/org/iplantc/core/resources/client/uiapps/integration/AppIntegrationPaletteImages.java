@@ -4,25 +4,46 @@ import com.google.gwt.resources.client.ImageResource;
 
 public interface AppIntegrationPaletteImages {
 
+    ImageResource generalInfoText();
+
+    ImageResource inputSection();
+
     ImageResource inputCheckBox();
 
     ImageResource inputEnvVar();
 
+    ImageResource inputFile();
+
+    ImageResource inputFolder();
+
     ImageResource inputFileMulti();
-
-    ImageResource inputFileSingle();
-
-    ImageResource inputGroup();
 
     ImageResource inputNumberInteger();
 
-    ImageResource inputSelectGrouped();
-
-    ImageResource inputSelectMulti();
+    ImageResource inputNumberDouble();
 
     ImageResource inputSelectSingle();
 
-    ImageResource inputTextMulti();
+    ImageResource inputSelectInteger();
+
+    ImageResource inputSelectDouble();
+
+    ImageResource inputSelectGrouped();
 
     ImageResource inputTextSingle();
+
+    ImageResource inputTextMulti();
+
+    ImageResource outputFileName();
+
+    ImageResource outputFolderName();
+
+    ImageResource outputMultiFile();
+
+    ImageResource referenceAnnotation();
+
+    ImageResource referenceGenome();
+
+    ImageResource referenceSequence();
+
 }
