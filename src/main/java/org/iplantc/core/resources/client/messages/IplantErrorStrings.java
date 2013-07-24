@@ -258,15 +258,24 @@ public interface IplantErrorStrings extends com.google.gwt.i18n.client.Messages,
     String deployedComponentRetrievalFailure();
 
     /**
-     * Translated "The following disk resources do not exist:<br />
-     * {0}".
+     * Translated "The following file / folder does not exist: {0}".
      * 
-     * @return translated "The following disk resources do not exist:<br />
-     *         {0}"
+     * @return translated "The following file / folder does not exist: {0}"
      */
-    @DefaultMessage("The following disk resources do not exist:<br />{0}")
+    @DefaultMessage("The following file / folder does not exist: {0}")
     @Key("diskResourceDoesNotExist")
     String diskResourceDoesNotExist(String arg0);
+
+    /**
+     * Translated "The following file(s) / folder(s) do not exist:<br />
+     * {0}".
+     * 
+     * @return translated "The following file(s) / folder(s) do not exist:<br />
+     *         {0}"
+     */
+    @DefaultMessage("The following file(s) / folder(s) do not exist:<br />{0}")
+    @Key("diskResourcesDoNotExist")
+    String diskResourcesDoNotExist(String diskResourceList);
 
     /**
      * Translated "The following disk resources already exist:<br />

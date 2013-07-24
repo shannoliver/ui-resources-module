@@ -4357,4 +4357,14 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("write")
     @Key("write")
     String write();
+
+    /**
+     * Translated "Pending verification that {0} exists."
+     * 
+     * @param path
+     * @return translated "Pending verification that {0} exists."
+     */
+    @DefaultMessage("Pending verification that {0} exists.")
+    @Key("diskResourceExistCheckPending")
+    String diskResourceExistCheckPending(String path);
 }
