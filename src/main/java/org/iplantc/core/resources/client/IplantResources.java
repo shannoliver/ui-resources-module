@@ -16,7 +16,7 @@ import com.google.gwt.resources.client.ImageResource;
  * 
  */
 public interface IplantResources extends ClientBundle, AppResources, DiskResourceResources,
-        AppIntegrationPaletteImages, DEHeaderResources, DataLinkResources {
+        AppIntegrationPaletteImages, DEHeaderResources, DataLinkResources, DataCollapseResources {
 
     public static IplantResources RESOURCES = GWT.create(IplantResources.class);
 
@@ -526,48 +526,88 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     ImageResource dataActionMenuIcon();
 
     @Override
-    @Source("input_checkbox.png")
+    @Source("integrator_checkbox.png")
     ImageResource inputCheckBox();
 
     @Override
-    @Source("input_env_var.png")
+    @Source("integrator_env_var.png")
     ImageResource inputEnvVar();
 
     @Override
-    @Source("input_file_multi.png")
+    @Source("integrator_multi_input_files.png")
     ImageResource inputFileMulti();
 
     @Override
-    @Source("input_file_single.png")
-    ImageResource inputFileSingle();
+    @Source("integrator_input_file.png")
+    ImageResource inputFile();
 
     @Override
-    @Source("input_group.png")
-    ImageResource inputGroup();
+    @Source("integrator_input_folder.png")
+    ImageResource inputFolder();
 
     @Override
-    @Source("input_number_integer.png")
+    @Source("integrator_info_text.png")
+    ImageResource generalInfoText();
+
+    @Override
+    @Source("integrator_section.png")
+    ImageResource inputSection();
+
+    @Override
+    @Source("integrator_Integer.png")
     ImageResource inputNumberInteger();
 
     @Override
-    @Source("input_select_grouped.png")
+    @Source("integrator_Double.png")
+    ImageResource inputNumberDouble();
+
+    @Override
+    @Source("integrator_group_list.png")
     ImageResource inputSelectGrouped();
 
     @Override
-    @Source("input_select_multi.png")
-    ImageResource inputSelectMulti();
-
-    @Override
-    @Source("input_select_single.png")
+    @Source("integrator_list.png")
     ImageResource inputSelectSingle();
 
     @Override
-    @Source("input_text_multi.png")
+    @Source("integrator_select_integer.png")
+    ImageResource inputSelectInteger();
+
+    @Override
+    @Source("integrator_select_double.png")
+    ImageResource inputSelectDouble();
+
+    @Override
+    @Source("integrator_multi_line_text.png")
     ImageResource inputTextMulti();
 
     @Override
-    @Source("input_text_single.png")
+    @Source("integrator_single_line_text.png")
     ImageResource inputTextSingle();
+
+    @Override
+    @Source("integrator_output_file_name.png")
+    ImageResource outputFileName();
+
+    @Override
+    @Source("integrator_output_folder_name.png")
+    ImageResource outputFolderName();
+
+    @Override
+    @Source("integrator_multi_output.png")
+    ImageResource outputMultiFile();
+
+    @Override
+    @Source("integrator_ref_annotation.png")
+    ImageResource referenceAnnotation();
+
+    @Override
+    @Source("integrator_ref_genome.png")
+    ImageResource referenceGenome();
+
+    @Override
+    @Source("integrator_ref_seq.png")
+    ImageResource referenceSequence();
 
     @Override
     @Source("header_bg.png")
@@ -589,6 +629,10 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Override
     @Source("tree_collapse.png")
     ImageResource treeCollapse();
+    
+    @Override
+    @Source("tree_collapse_hover.png")
+    ImageResource treeCollapseHover();
 
     @Override
     @Source("tree_expand.png")
@@ -631,4 +675,7 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
 
     @Source("uiapps/widgets/ArgumentListEditorCss.css")
     ArgumentListEditorCss argumentListEditorCss();
+    
+    @Source("DataCollapse.css")
+    DataCollapseStyle getDataCollapseStyle();
 }
