@@ -29,4 +29,6 @@ public interface AppsWidgetsDisplayMessages {
     String forceSingleSelectLabel();
 
     String forceSingleSelectToolTip();
+
+    String emptyArgumentGroupBgText();
 }
