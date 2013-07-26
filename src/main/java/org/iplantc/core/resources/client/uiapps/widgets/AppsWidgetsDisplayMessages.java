@@ -1,6 +1,14 @@
 package org.iplantc.core.resources.client.uiapps.widgets;
 
 public interface AppsWidgetsDisplayMessages {
+    /**
+     * @return the text to be displayed inside an empty selection item.
+     */
+    String emptyListSelectionText();
+
+    String defaultGroupLabel(int grpNum);
+
+    String emptyToolText();
 
     String defaultAnalysisName();
 

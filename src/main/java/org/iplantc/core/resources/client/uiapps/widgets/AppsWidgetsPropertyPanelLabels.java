@@ -2,6 +2,22 @@ package org.iplantc.core.resources.client.uiapps.widgets;
 
 public interface AppsWidgetsPropertyPanelLabels {
 
+    String labelAppNameLabel();
+
+    String labelAppNameEmptyText();
+
+    String labelDetailsPanelHeader();
+
+    String labelGroupNameLabel();
+
+    String labelGroupNameEmptyText();
+
+    String labelGroupDelete();
+
+    String labelToolUsedLabel();
+
+    String labelToolUsedEmptyText();
+
     String labelMultiFileInputLabel();
 
     String labelFileInputLabel();
@@ -26,6 +42,8 @@ public interface AppsWidgetsPropertyPanelLabels {
 
     String labelCheckboxLabel();
 
+    String labelCheckboxEmptyText();
+
     String labelEnvVarLabel();
 
     String labelIntegerInputLabel();
@@ -34,15 +52,23 @@ public interface AppsWidgetsPropertyPanelLabels {
 
     String labelFileOutputLabel();
 
+    String labelFileOutputEmptyText();
+
     String labelFolderOutputLabel();
 
+    String labelFolderOutputEmptyText();
+
     String labelMultiFileOutputLabel();
+
+    String labelMultiFileOutputEmptyText();
 
     String labelIsRequired();
 
     String labelExcludeWhenEmpty();
 
     String labelToolTipText();
+
+    String labelToolTipEmptyText();
 
     String labelArgumentOption();
 
@@ -56,9 +82,15 @@ public interface AppsWidgetsPropertyPanelLabels {
 
     String labelReferenceGenomeLabel();
 
+    String labelReferenceGenomeEmptyText();
+
     String labelReferenceSequenceLabel();
 
+    String labelReferenceSequenceEmptyText();
+
     String labelReferenceAnnotationLabel();
+
+    String labelReferenceAnnotationEmptyText();
 
     String labelSingleSelectionDefaultValue();
 
@@ -84,4 +116,51 @@ public interface AppsWidgetsPropertyPanelLabels {
 
     String labelMultiFileOutputSourceLabel();
 
+    String labelTextInputEmptyText();
+
+    String labelEnvVarEmptyText();
+
+    String labelInfoEmptyText();
+
+    String labelTextSelectionEmptyText();
+
+    String labelMultiFileInputEmptyText();
+
+    String labelFolderInputEmptyText();
+
+    String labelFileInputEmptyText();
+
+    String labelTextInputWidgetEmptyText();
+
+    String labelDoubleInputWidgetEmptyText();
+
+    String labelIntegerInputWidgetEmptyText();
+
+    String labelEnvVarWidgetEmptyText();
+
+    String labelMultiFileWidgetEmptyText();
+
+    String labelSelectionCreateWidgetEmptyText();
+
+    String labelSingleSelectEditToolTip();
+
+    String labelSingleSelectDisplayColumnHeader();
+
+    String labelSingleSelectNameColumnHeader();
+
+    String labelSingleSelectValueColumnHeader();
+
+    String labelSingleSelectToolTipColumnHeader();
+
+    String labelSingleSelectIsDefaultColumnHeader();
+
+    String labelAppDescriptionEmptyText();
+
+    String labelAppDescriptionLabel();
+
+    String labelArgumentOptionEmptyText();
+
+    String labelDoNotPass();
+
+    String labelIsVisible();
 }

@@ -1,6 +1,8 @@
 package org.iplantc.core.resources.client.uiapps.widgets;
 
 public interface AppsWidgetsContextualHelpMessages {
+    String propertyToolUsed();
+
     String propertyExcludeArgumentMulti();
 
     String propertyExcludeArgumentFile();
@@ -17,18 +19,17 @@ public interface AppsWidgetsContextualHelpMessages {
 
     String propertyExcludeArgumentOutput();
 
+    String propertyExcludeReference();
+
     String propertyToolTip();
 
     String propertyArgumentOption();
 
     String propertyArgumentOrder();
 
-
-
     String propertyCreateList();
 
     String propertyDefaultItem();
-
 
     String propertyCheckCascade();
 
@@ -38,21 +39,19 @@ public interface AppsWidgetsContextualHelpMessages {
 
     String propertyValidationRules();
 
-
-
     String propertyDefaultNameEnvVar();
 
     String propertyDefaultValueEnvVar();
 
-
     String propertyDefaultValueInteger();
 
     String propertyValRulesInteger();
-
 
     String propertyOutputSource();
 
     String propertyFileInfoType();
 
     String propertyCreateTree();
+
+    String propertyDoNotPass();
 }
