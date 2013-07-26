@@ -54,4 +54,6 @@ public interface AppsWidgetsContextualHelpMessages {
     String propertyCreateTree();
 
     String propertyDoNotPass();
+
+    String propertyExcludeArgumentFlag();
 }
