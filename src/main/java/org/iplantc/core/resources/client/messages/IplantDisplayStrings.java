@@ -3522,8 +3522,8 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      * @return translated "Select a file"
      */
     @DefaultMessage("Select from existing")
-    @Key("selectExisiting")
-    String selectExisiting();
+    @Key("selectExsisting")
+    String selectExsisting();
     
     /**
      * Translated "Select a file".
