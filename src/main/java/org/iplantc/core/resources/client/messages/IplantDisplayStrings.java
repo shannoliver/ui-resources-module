@@ -3521,6 +3521,15 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
      *
      * @return translated "Select a file"
      */
+    @DefaultMessage("Select from existing")
+    @Key("selectExisiting")
+    String selectExisiting();
+    
+    /**
+     * Translated "Select a file".
+     *
+     * @return translated "Select a file"
+     */
     @DefaultMessage("Select a file")
     @Key("selectAFile")
     String selectAFile();
@@ -4097,6 +4106,16 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @Key("upload")
     String upload();
 
+    /**
+     * Translated "New upload".
+     *
+     * @return translated "New upload"
+     */
+    @DefaultMessage("New upload")
+    @Key("uploadNew")
+    String uploadNew();
+    
+    
     /**
      * Translated "Uploaded".
      *
