@@ -1,166 +1,134 @@
 package org.iplantc.core.resources.client.uiapps.widgets;
 
-public interface AppsWidgetsPropertyPanelLabels {
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.ArgumentGroupLabels;
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.DoubleSelectionLabels;
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.FileInputTypeLabels;
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.FolderInputTypeLabels;
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.InfoTypeLabels;
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.IntegerSelectionLabels;
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.MultiFileInputLabels;
+import org.iplantc.core.resources.client.uiapps.widgets.argumentTypes.TreeSelectionLabels;
 
-    String labelAppNameLabel();
+import com.google.gwt.i18n.client.Messages;
 
-    String labelAppNameEmptyText();
+public interface AppsWidgetsPropertyPanelLabels extends Messages, ArgumentGroupLabels, InfoTypeLabels, FileInputTypeLabels, FolderInputTypeLabels, MultiFileInputLabels, IntegerSelectionLabels,
+        DoubleSelectionLabels, TreeSelectionLabels {
 
-    String labelDetailsPanelHeader();
+    String appDescriptionEmptyText();
 
-    String labelGroupNameLabel();
+    String appDescriptionLabel();
 
-    String labelGroupNameEmptyText();
+    String appNameEmptyText();
 
-    String labelGroupDelete();
+    String appNameLabel();
 
-    String labelToolUsedLabel();
+    String argumentOption();
 
-    String labelToolUsedEmptyText();
+    String argumentOptionEmptyText();
 
-    String labelMultiFileInputLabel();
+    String checkboxEmptyText();
 
-    String labelFileInputLabel();
+    String checkboxLabel();
 
-    String labelFolderInputLabel();
+    String defaultCheckboxLabel();
 
-    String labelSingleSelectionCreateLabel();
+    String defaultEnvVarLabel();
 
-    String labelTextSelectionLabel();
+    String defaultFileOutputlabel();
 
-    String labelIntegerSelectionLabel();
+    String defaultFolderOutputLabel();
 
-    String labelDoubleSelectionLabel();
+    String defaultMultiFileOutputLabel();
 
-    String labelTreeSelectionLabel();
+    String defaultTextLabel();
 
-    String labelTreeSelectionCreateLabel();
+    String defaultValueLabel();
 
-    String labelTextInputLabel();
+    String detailsPanelHeader();
 
-    String labelMultiLineTextLabel();
+    String doNotPass();
 
-    String labelCheckboxLabel();
+    String doubleInputLabel();
 
-    String labelCheckboxEmptyText();
+    String doubleInputWidgetEmptyText();
 
-    String labelEnvVarLabel();
+    String envVarEmptyText();
 
-    String labelIntegerInputLabel();
+    String envVarLabel();
 
-    String labelDoubleInputLabel();
+    String envVarWidgetEmptyText();
 
-    String labelFileOutputLabel();
+    String excludeWhenEmpty();
 
-    String labelFileOutputEmptyText();
+    String fileOutputEmptyText();
 
-    String labelFolderOutputLabel();
+    String fileOutputLabel();
 
-    String labelFolderOutputEmptyText();
+    String fileOutputSourceLabel();
 
-    String labelMultiFileOutputLabel();
+    String folderOutputEmptyText();
 
-    String labelMultiFileOutputEmptyText();
+    String folderOutputLabel();
 
-    String labelIsRequired();
+    String folderOutputSourceLabel();
 
-    String labelExcludeWhenEmpty();
+    String integerInputLabel();
 
-    String labelToolTipText();
+    String integerInputWidgetEmptyText();
 
-    String labelToolTipEmptyText();
+    String isRequired();
 
-    String labelArgumentOption();
+    String isVisible();
 
-    String labelFileInfoTypeFileLabel();
+    String multiFileOutputEmptyText();
 
-    String labelFileInfoTypeFolderLabel();
+    String multiFileOutputLabel();
 
-    String labelFileInfoTypeMultiFileLabel();
+    String multiFileOutputSourceLabel();
 
-    String labelInfoLabel();
+    String multiFileWidgetEmptyText();
 
-    String labelReferenceGenomeLabel();
+    String multiLineTextLabel();
 
-    String labelReferenceGenomeEmptyText();
+    String referenceAnnotationEmptyText();
 
-    String labelReferenceSequenceLabel();
+    String referenceAnnotationLabel();
 
-    String labelReferenceSequenceEmptyText();
+    String referenceGenomeEmptyText();
 
-    String labelReferenceAnnotationLabel();
+    String referenceGenomeLabel();
 
-    String labelReferenceAnnotationEmptyText();
+    String referenceSequenceEmptyText();
 
-    String labelSingleSelectionDefaultValue();
+    String referenceSequenceLabel();
 
-    String labelDefaultFileOutputlabel();
+    String singleSelectDisplayColumnHeader();
 
-    String labelDefaultFolderOutputLabel();
+    String singleSelectIsDefaultColumnHeader();
 
-    String labelDefaultMultiFileOutputLabel();
+    String singleSelectNameColumnHeader();
 
-    String labelValidatorRulesLabel();
+    String singleSelectToolTipColumnHeader();
 
-    String labelDefaultValueLabel();
+    String singleSelectValueColumnHeader();
 
-    String labelDefaultCheckboxLabel();
+    String textInputEmptyText();
 
-    String labelDefaultTextLabel();
+    String textInputLabel();
 
-    String labelDefaultEnvVarLabel();
+    String textInputWidgetEmptyText();
 
-    String labelFileOutputSourceLabel();
+    String textSelectionEmptyText();
 
-    String labelFolderOutputSourceLabel();
+    String textSelectionLabel();
 
-    String labelMultiFileOutputSourceLabel();
+    String toolTipEmptyText();
 
-    String labelTextInputEmptyText();
+    String toolTipText();
 
-    String labelEnvVarEmptyText();
+    String toolUsedEmptyText();
 
-    String labelInfoEmptyText();
+    String toolUsedLabel();
 
-    String labelTextSelectionEmptyText();
-
-    String labelMultiFileInputEmptyText();
-
-    String labelFolderInputEmptyText();
-
-    String labelFileInputEmptyText();
-
-    String labelTextInputWidgetEmptyText();
-
-    String labelDoubleInputWidgetEmptyText();
-
-    String labelIntegerInputWidgetEmptyText();
-
-    String labelEnvVarWidgetEmptyText();
-
-    String labelMultiFileWidgetEmptyText();
-
-    String labelSelectionCreateWidgetEmptyText();
-
-    String labelSingleSelectEditToolTip();
-
-    String labelSingleSelectDisplayColumnHeader();
-
-    String labelSingleSelectNameColumnHeader();
-
-    String labelSingleSelectValueColumnHeader();
-
-    String labelSingleSelectToolTipColumnHeader();
-
-    String labelSingleSelectIsDefaultColumnHeader();
-
-    String labelAppDescriptionEmptyText();
-
-    String labelAppDescriptionLabel();
-
-    String labelArgumentOptionEmptyText();
-
-    String labelDoNotPass();
-
-    String labelIsVisible();
+    String validatorRulesLabel();
 }

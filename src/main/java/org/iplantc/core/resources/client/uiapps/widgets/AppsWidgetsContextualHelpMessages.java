@@ -1,59 +1,61 @@
 package org.iplantc.core.resources.client.uiapps.widgets;
 
-public interface AppsWidgetsContextualHelpMessages {
-    String propertyToolUsed();
+import com.google.gwt.i18n.client.Messages;
 
-    String propertyExcludeArgumentMulti();
+public interface AppsWidgetsContextualHelpMessages extends Messages {
+    String toolUsed();
 
-    String propertyExcludeArgumentFile();
+    String excludeArgumentMulti();
 
-    String propertyExcludeArgumentFolder();
+    String excludeArgumentFile();
 
-    String propertyExcludeArgumentList();
+    String excludeArgumentFolder();
 
-    String propertyExcludeArgumentText();
+    String excludeArgumentList();
 
-    String propertyExcludeArgumentEnvVar();
+    String excludeArgumentText();
 
-    String propertyExcludeArgumentInteger();
+    String excludeArgumentEnvVar();
 
-    String propertyExcludeArgumentOutput();
+    String excludeArgumentInteger();
 
-    String propertyExcludeReference();
+    String excludeArgumentOutput();
 
-    String propertyToolTip();
+    String excludeReference();
 
-    String propertyArgumentOption();
+    String toolTip();
 
-    String propertyArgumentOrder();
+    String argumentOption();
 
-    String propertyCreateList();
+    String argumentOrder();
 
-    String propertyDefaultItem();
+    String createList();
 
-    String propertyCheckCascade();
+    String defaultItem();
 
-    String propertySingleSelect();
+    String checkCascade();
 
-    String propertyDefaultText();
+    String singleSelect();
 
-    String propertyValidationRules();
+    String defaultText();
 
-    String propertyDefaultNameEnvVar();
+    String validationRules();
 
-    String propertyDefaultValueEnvVar();
+    String defaultNameEnvVar();
 
-    String propertyDefaultValueInteger();
+    String defaultValueEnvVar();
 
-    String propertyValRulesInteger();
+    String defaultValueInteger();
 
-    String propertyOutputSource();
+    String valRulesInteger();
 
-    String propertyFileInfoType();
+    String outputSource();
 
-    String propertyCreateTree();
+    String fileInfoType();
 
-    String propertyDoNotPass();
+    String createTree();
 
-    String propertyExcludeArgumentFlag();
+    String doNotPass();
+
+    String excludeArgumentFlag();
 }
