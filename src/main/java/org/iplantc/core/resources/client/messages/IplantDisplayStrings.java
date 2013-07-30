@@ -1,9 +1,5 @@
 package org.iplantc.core.resources.client.messages;
 
-import org.iplantc.core.resources.client.uiapps.integration.AppIntegrationMessages;
-import org.iplantc.core.resources.client.uiapps.widgets.AppsWidgetsDisplayMessages;
-import org.iplantc.core.resources.client.uiapps.widgets.ArgumentValidatorMessages;
-
 import com.google.gwt.safehtml.shared.SafeHtml;
 
 /**
@@ -12,8 +8,7 @@ import com.google.gwt.safehtml.shared.SafeHtml;
  * -resources-module/src/main/resources/org/iplantc/core/resources/client
  * /messages/IplantDisplayStrings.properties'.
  */
-public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Messages,
- ArgumentValidatorMessages, AppIntegrationMessages, AppsWidgetsDisplayMessages {
+public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Messages {
 
     /**
      * Translated "About".
@@ -173,16 +168,6 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Enter a description for your application")
     @Key("analysisDesc")
     String analysisDesc();
-
-    /**
-     * Translated "Analysis Name".
-     *
-     * @return translated "Analysis Name"
-     */
-    @Override
-    @DefaultMessage("Analysis Name")
-    @Key("analysisName")
-    String analysisName();
 
     /**
      * Translated "Overview".
@@ -936,16 +921,6 @@ public interface IplantDisplayStrings extends com.google.gwt.i18n.client.Message
     @DefaultMessage("Retain Inputs? Enabling this flag will copy all the input files into the analysis result folder.")
     @Key("debug")
     String debug();
-
-    /**
-     * Translated "analysis1".
-     *
-     * @return translated "analysis1"
-     */
-    @Override
-    @DefaultMessage("analysis1")
-    @Key("defaultAnalysisName")
-    String defaultAnalysisName();
 
     /**
      * Translated "<b> Default analysis output folder </b>".

@@ -1,8 +1,13 @@
 package org.iplantc.core.resources.client.uiapps.integration;
 
+import com.google.gwt.i18n.client.Messages;
 import com.google.gwt.safehtml.shared.SafeHtml;
 
-public interface AppIntegrationMessages {
+public interface AppIntegrationMessages extends Messages {
+
+    String paletteHeader();
+
+    String cmdLinePreviewHeader();
 
     String previewUI();
 

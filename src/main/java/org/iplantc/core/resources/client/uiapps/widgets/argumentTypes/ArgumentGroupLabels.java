@@ -7,4 +7,6 @@ public interface ArgumentGroupLabels {
 
     String groupNameLabel();
 
+    String groupDefaultLabel(int grpNum);
+
 }

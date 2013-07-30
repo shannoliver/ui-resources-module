@@ -7,4 +7,6 @@ public interface MultiFileInputLabels {
 
     String multiFileInputFileInfoType();
 
+    String multiFileWidgetEmptyText();
+
 }
