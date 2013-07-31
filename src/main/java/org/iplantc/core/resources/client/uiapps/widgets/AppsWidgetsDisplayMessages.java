@@ -1,6 +1,14 @@
 package org.iplantc.core.resources.client.uiapps.widgets;
 
-public interface AppsWidgetsDisplayMessages {
+import com.google.gwt.i18n.client.Messages;
+
+public interface AppsWidgetsDisplayMessages extends Messages {
+    /**
+     * @return the text to be displayed inside an empty selection item.
+     */
+    String emptyListSelectionText();
+
+    String emptyToolText();
 
     String defaultAnalysisName();
 
@@ -29,4 +37,6 @@ public interface AppsWidgetsDisplayMessages {
     String forceSingleSelectLabel();
 
     String forceSingleSelectToolTip();
+
+    String emptyArgumentGroupBgText();
 }

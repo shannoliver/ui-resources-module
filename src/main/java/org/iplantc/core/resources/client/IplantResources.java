@@ -617,6 +617,9 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Source("mini_logo.png")
     ImageResource headerLogo();
 
+    @Source("help.png")
+    ImageResource help();
+
     @Source("DEHeader.css")
     DEHeaderStyle getHeaderStyle();
 
@@ -662,6 +665,12 @@ public interface IplantResources extends ClientBundle, AppResources, DiskResourc
     @Source("user_comment.png")
     ImageResource feedback();
     
+    @Source("cursor_hand.png")
+    ImageResource cursorHand();
+
+    @Source("cursor_drag_hand.png")
+    DataResource cursorDragHand();
+
     /**
      * Accesses the style for the Announcer widget
      * 

@@ -1,7 +1,8 @@
 package org.iplantc.core.resources.client.uiapps.widgets;
 
+import com.google.gwt.i18n.client.Messages;
 
-public interface ArgumentValidatorMessages {
+public interface ArgumentValidatorMessages extends Messages {
 
     String regex(String regex);
 
